@@ -1,0 +1,73 @@
++++
+date = '2022-02-08T20:04:24+02:00'
+draft = false
+title = 'Moi, oon Henkka. Alkoholisti.'
++++
+
+![](/blogi/pexels-pixabay-209620.jpg)
+
+*6 kuukautta, 16 päivää, 0 tuntia, 29 minuuttia ja 26 sekuntia takana.*
+
+Moi, oon Henkka. Alkoholisti.
+
+Tämä blogi saa alkunsa tarpeesta tuoda tiettäväksi pääkopassani vellovat ajatukset elämästäni. Tarpeesta saattaa tekstiksi kaikki se myllerrys, joka on sotkenut ajatuksiani jo vuosien ajan, mankeloiden jatkuvalla syötöllä kaikesta ohitta levyä josta ei nouse esille oikeastaan mitään. Tasapaksua maisemaa vailla maamerkkejä. Sillä ei loppujen lopuksi ole merkitystä, että lukeeko tätäkään tekstiä kukaan; kunhan saan asioita paperille niin saan samalla oman luomisentarpeeni tyydytettyä.
+
+Tekstin yläreunassa oleva aikamääre on aika, joka on kulunut siitä kun viimeksi join viinaa. Olen siis ollut täysin selvinpäin hieman yli puoli vuotta, ja vasta nyt ajatukseni alkavat selkeytyä sellaiseen muotoon josta tunnistan itseni. Käsittääkseni alkoholi aiheuttaa aivoissa voimakkaita kemiallisia ja fyysisiä muutoksia ja kestää jonkin aikaa, että se palautuu takaisin normaaliksi. Arvioisin olotilastani, että puolen vuoden selvä jakso on palauttanut omaa fysiikkaani takaisin ryyppäämätöntä aikakautta kohti ainakin jonkin verran. Tuskin vielä täysin, mutta sen verran ainakin, että aivoissa käyvä kuhina alkaa osoittaa laantumisen merkkejä, tajunnan virtaus tasaantua, pystyn keskittymään asioihin paremmin ja saan myös sitä kautta enemmän asioita aikaiseksi.
+
+Ymmärrän, että puoli vuotta selvinpäin ei ole normaalille ihmiselle aika eikä mikään. Minulle se on aika, jonka jälkeen voin sanoa aloittaneeni uuden elämän. Minulle puolen vuoden etappi on ollut jollain tapaa tärkeä määre siitä, että pahat ajat ovat takanapäin ja elämä edessäni. En ole lopulta raitistumiseni jälkeen edes kaivannut alkoholia, mikä on yllättänyt minut itsenikin, mutta tähän pisteeseen päätyminen ja sen ymmärtäminen, ettei tarvitse viinaa elääkseen on ollut kohdallani pitkä, jopa vuosia kestänyt prosessi. Tässä blogini avauksessa käyn läpi tärkeimpiä käännekohtia jotka auttoivat kohdallani muutoksen ja ymmärryksen käynnistämisessä. Toivon, että ne tuovat mahdollisesti tätä lukeville ja samojen asioiden kanssa kamppaileville edes jotain apua omien demonien selättämisessä.
+
+#### Perhosvaikutus
+
+Varmasti jokainen meistä on kuullut jossain kohtaa elämäänsä kaaosteoriasta ja siihen liitetystä perhosvaikutuksesta. Perhonen räpäyttää siipiään, dominonappulat kaatuvat ja lopulta tuo mitätön siipien räpäyttäminen saa aikaan hirmumyrskyn toisella puolella maapalloa. Näin rajusti yksinkertaistettuna. Minun kohdallani raitistuminen alkoi perhosvaikutusmaisesti, ystäväni muutosta Saksaan.
+
+Olin toki jo pitkän aikaa tarkkaillut huolestuneena omaa alkoholinkäyttöäni, mutten ollut kyennyt tekemään tuolle asialle käytännössä yhtään mitään. En pystynyt pysäyttämään itseäni lähtemästä kavereiden kanssa yksille, kuumana kesäpäivänä terasiin kutsuvaan varjoon tai töiden jälkeen afterworkeille työkavereiden kanssa. Lounaalla nautin oluen, juhlaillallisella useamman. Kutsuin alkoholia sosiaaliseksi paheekseni, jota nautin ainoastaan ystävieni seurassa. Lopulta tähän kategoriaan menivät tutut ja tuntemattomat, kunhan pystyin sillä perustelemaan seuraavan tuopin nauttimisen.
+
+Tiesin alkoholinkäyttöni riistäytyneen jo aikoja sitten käsistä, mutta en saanut käännettyä aivoissani kytkintä, joka olisi saanut minut tajuamaan, ettei se ollut hyväksi minulle saati parisuhteelleni. Vielä vähemmän pystyin konkreettisesti tekemään asialle jotain, menin autopilotilla tilanteesta toiseen ja vedin viinaa väsymykseen, vitutukseen, epäonnistumiseen, iloon, onnistumiseen ja juhlaan. Palkitsin itseäni kaikesta juomalla olutta. Kirkkaita en juonut koskaan, viskiä senkin edestä. ”Harrastin” viskejä. Ryyppäsin niitä sivistynyttä leikkien.
+
+Mutta siihen ystävään. Hän siis muutti pari vuotta sitten Saksaan ja minä olin muuttoapuna. Tietysti. Olen aina ollut avulias kaveri ja kieltäytynyt muuttoavuksi ryhtymisestä vain kerran elämässäni. Siitä huolimatta, että vihaan tavaroiden kantamista. Kannoimme kamat ullakon varastotilasta pakettiautoon ja lähdimme, mihinpä muualle kuin kaljalle. Palkitsimme jälleen toisiamme hyvästä työstä. Elettiin heinäkuuta ja ilma oli lämmin ja kuiva, olut kylmää ja märkää. Muutaman oluen jälkeen pakotin itseni lähtemään kotiin, johon polkaisin pyörällä tukevassa nousussa läpi kesäisen Oulun. Olen ryhtynyt tankojuopoksi useammin kuin tuon kerran. Mutta se on asian vierestä.
+
+Kotiin päästyäni söin hieman ja kävin lämpimässä suihkussa verryttelemässä kipeytynyttä olkapäätäni. Laitoin tämän jälkeen unten maille, josta heräsin pian hikisenä ja tuskaisena. En saanut henkeä, makuullaan oleminen oli äärimmäisen tuskallista, vanne puristi rintaa ja ainoastaan istualtani sain vedettyä happea keuhkoihini. (Siihen aikaan vielä tuleva) Vaimoni pakotti minut soittamaan ambulanssin. Olen sitä (perhanan) sukupolvea joka ei (saatana) sairaalaan mene kirveelläkään. Onneksi olen tuosta älyttömästä luonteenpirteestä päässyt jo suurimmaksi osaksi eroon. Lanssi tuli, teki testit ja vei yöksi sairaalaan.
+
+Sydänkäyrä näytti normaalia, kaikki verikokeet normaalia, keuhkojen röntgen normaalia, Covid-19 testi oli negatiivinen. Missään ei ollut mitään vikaa. Vuoroon tullut lääkäri tuli yön päätteeksi toteamaan, että rintarankani oli mennyt fyysisen rasituksen seurauksena lukkoon ja, että lihasrelaksantit auttaisivat. Norflexia pari piikkiä pakaraan ja pian taivaan portit aukenivat hallelujan muodossa; pystyin taas hengittämään normaalisti. Resepti hanskaan ja väsyneenä bussilla kotiin nukkumaan.
+
+Saatat miettiä, että miten ihmeessä tämä kaikki liittyy alkoholismiini ja tulevaan raitistumiseeni. Liittyy. Kaikki liittyy. Perhosvaikutus. USKO JO 😁! <-(Tuo on muuten ensimmäinen ja viimeinen hymiö mitä käytän tässä blogissa.)
+
+Tuon kokemuksen innoittamana päätin laittaa päälle 30 vuotta urheilua kaikin mahdollisin keinoin vältelleen kroppani kuntoon. Olen koko ikäni istunut tietokoneella pelaamassa videopelejä tai muuten touhuamassa, lukenut kirjoja, kirjoittanut lyhyitä (paskoja) tekstejä ja ylipäätään makoillut menemään. Mutta eihän se nyt käynyt päinsä, että yhdestä perhanan muuttokeikasta joutuu sairaalaan. Kesti vielä pari-kolme viikkoa, että pystyin edes lähtemään salille, sillä muuttoreissun seuraukset tuntuivat kropassa pitkään.
+
+Teimme sopimuksen tutun personal trainerin [Tuomas Ylinampan](https://www.instagram.com/ylinampajj/) kanssa ja aloitin säännöllisen salilla käymisen. Tuomas oli jo aiemmin minulle tuttu mies, sillä olin käynyt hänen vetämällään [Brasilialaisen Jujutsun](https://fi.wikipedia.org/wiki/Brasilialainen_jujutsu) peruskurssilla. Oli lopulta varsin helppoa lähteä tutun miehen kanssa tekemään elämänmuutosta. Aloitimme ns. nollasta, pienillä painoilla, jopa ilman painoja, kropan totuttamisen uusiin liikeratoihin ja rasitukseen. Kehittyminen oli varsinkin alkuaikoina todella nopeaa ja opin yllättävänkin helposti nauttimaan salilla käymisestä. Kroppani tuntui soveltuvan hyvin punttitreenaamiseen ja pian kolmen-neljänkymmenen kilon kyykyt ja maastaveto vaihtuivat jo tuplakokoisiin rautamääriin. Nykyisin, lähes kaksi vuotta myöhemmin, kyykkään lähes sata ja nostan maastavetoa yli sata kiloa. Olen suorastaan rakastunut kuntosalitreenaamiseen ja kehityn vieläkin jatkuvasti.
+
+Sivuhuomautuksena mainittakoot, että olen treenannut myös Brasilialaista Jujutsua jo hetken aikaa, joten siitäkin tulen kirjoittamaan jossain vaiheessa blogiini. Treenaan puntteja ja BJJ:tä molempia [Oulun Kamppailuklubilla](https://oulunkamppailuklubi.fi/), joten shoutoutit sinne! Mahtava paikka, toinen kotini!
+
+Salitreenaamisen tuoman henkisen ja fyysisen hyvinvoinnin astuttua elämääni aloin ihan tosissani miettimään alkoholin kanssa pelleilyäni ja, että onko koko aineesta minulle lopulta yhtään mitään hyötyä. En kuitenkaan vieläkään pystynyt tekemään ratkaisua juomisen lopettamisesta, vaan ryyppäsin punttitreenien ohella jatkuvasti. Aloin jopa palkitsemaan itseäni hyvistä punteista käymällä treenien jälkeen useaankin olueen venyneellä visiitillä paikallisessa. Silloin kun ne sattuivat olemaan auki. Elettiin Covid-19 -pandemian sulkuaikaa ja ravintolat olivat välillä kokonaan kiinni. Silloin kaljan juonti siirrettiin kotiin. En ole oikeastaan koskaan ollut mikään kotiryypiskelijä, vaan kulutin kaikki rahani ja aikani baareissa läträämiseen, mikä sekin teki ryypäämisestä varsin kallista touhua.
+
+Aloin olla fyysisesti paremmassa kunnossa kuin koskaan, mutta henkinen kasvuni vaati vielä yhden tärkeän sysäyksen täydellisen elämänmuutoksen aikaansaamiseksi. Se on…
+
+Roope Salmisen Kolme Käännekohtaa
+
+**[Roope Salmisen](https://www.instagram.com/roopesalminen)** [_Kolme Käännekohtaa_ -podcast](https://www.podplay.com/fi-fi/podcasts/kolme-kaannekohtaa-681423) -podcast oli kutitellut kiinnostukseni laitamilla jo pidemmän aikaa. Podcastissa julkisuuden henkilöt kertovat oman elämänsä kolme tärkeintä käännekohtaa ja ainoa sääntö on, että lapsen syntymä ei saa olla yksi niistä. Podcastia oli jo useampia jaksoja pihalla ja, kuten historia tietää kertoa, Salminen oli kadonnut televisiopiireistä hetkeksi aikaa maan alle hänen seksuaalirikostaan käsittelevän oikeudenkäyntinsä ajaksi. Olin aina tykännyt Salmisen ulosannista viihdyttäjänä. Lopultahan Salminen tuomittiin teostaan ja hän maksoi siitä saamansa tuomion, joten ei siitä sen enempää. Ei ole minun asiani alkaa tuomitsemaan Salmista tai käsittelemään tämän tekemisiä. [Tuomioistuin teki sen jo](https://www.iltalehti.fi/viihdeuutiset/a/3fe55b73-2653-48fa-97e3-47b0bb2371a6).
+
+Käänsin vihdoin ajatukseni ja korvani Salmisen podcastille ja aloitin sen nollasta. Siis kirjaimellisesti. Ensimmäinen jakso on nimeltään ”0. Roope Salminen”. Salminen aloittaa koko podcastinsa asettamalla itsensä framille, alttiiksi kritiikille ja avoimeksi. Syystäkin. Aiemmin mainittu seksuaalirikostuomio painoi paitsi uraa niin varmasti myös miehen omaatuntoa. Paras tapa päästä siitä yli on kertoa se läpi avoimesti ja mitään peittelemättä. Ja sen Salminen jaksossa myös tekee.
+
+Silti se, mikä iski itseeni kaikista lähimmäksi ja osoittautui yhdeksi tärkeimmistä kuulemistani tunnustuksista oli se, että Roope Salminen on alkoholisti. Hän kertoo podcastissaan jopa riipivän avoimesti kaiken. Siis ihan kaiken. Kaiken sen peittelyn, valehtelun, luottamusten pettämisen (itsensä ja muiden), avaa kaikki ne arvet ja haavat auki ja antaa palaa. On rehellinen kuulijalle, mutta ennen kaikkea itselleen.
+
+Tajusin vihdoinkin, kaikkien näiden vuosien jälkeen Salmisen saarnaamatonta ulostuloa kuunnellessani totuuden:
+
+Minä olen alkoholisti.
+
+Se iski. Täysillä. Olin kyllä sanonut niin ääneen montakin kertaa, mutta en ollut sisäistänyt sanojen merkitystä. Pysähdyin mistäpä muualta kuin ravintolasta kotiin pikkupäissäni kävellessäni niille sijoilleni, keskelle laskevan kesäauringon säteissä kylpevää kävelytietä. Jokin Salmisen kertomuksessa sai minussa aikaan vaikutuksen jota olin etsinyt jo vuosikausia. Tuntui, että jokin ratkaiseva kytkin päässäni kääntyi vihdoin oikeaan asentoon. En tuntenut häpeää, en tuntenut surua tai oikeastaan mitään negatiivisia tuntemuksia. En soimannut itseäni tai tuntenut sääliä kohtaloni puolesta. Tunsin herääväni. Sain vihdoin, siinä yhdessä silmänräpäyksessä kiinni siitä ajatuksesta, että olen riippuvainen alkoholista mutta minun ei ihan oikeasti tarvitse olla. Geenini, taustani ja ylipäätään mielenterveydellinen tilani olivat siihen asti suorastaan huutanut humalaa seurakseen, mutta se loppui siihen paikkaan.
+
+Sen illan jälkeen en ole juonut tippaakaan alkoholia. Ei ole edes tehnyt mieli.
+
+Erittäin painavana ja tärkeänä välihuomautuksena muuten, että vaikka Salmisen ulostulon vaikutus onkin piirtynyt mieleeni kaikkein vaikuttavimpana hetkenä raitistumisessani, niin oma panoksensa oli ehdottomasti myös ystävälläni jonka kanssa olin samana iltana jutellut pitkät pätkät hänen raitistumisestaan. Tuo keskustelu ja hänelle ilmoittamani halu seurata hänen esimerkkiään olivat aivan varmasti myös avainroolissa raitistumisessani, joten kiitos siitä Marko. Olet yksi perhosvaikutuksen puhurin yllyttäjistä, ja olen sinullekin ikuisesti kiitollinen. Kilistelemme alkoholittomat kun ensi kesänä taas näemme. Halataan sitten.
+
+Nyt, hieman yli puoli vuotta raitistumiseni jälkeen elämäni on alkanut uudelleen. Sain muutama kuukausi sitten maksettua pois vuosien aikana juomiseni rahoittamiseksi ottamani pikavipit ja en enää elä kädestä suuhun. Voin aloittamani urheiluharrastuksen myötä fyysisesti paremmin kuin koskaan. Vietän vaimoni kanssa tämän viikon perjantaina yksivuotishääpäivää. Täytän tänä vuonna 37-vuotta ja alan vasta nyt ymmärtämään, että elämäni on vasta edessäpäin.
+
+Tämä tarina on kirjoitettu lähinnä siksi, että se iskettiin myös [Iltalehden artikkelissa](https://www.iltalehti.fi/viihdeuutiset/a/ce4acda1-1b31-4179-874b-df062acf5a38) kansan luettavaksi, mutta kuten lehtijutuilla on tapana, tarinasta suurin osa jää kertomatta. Haluan tässä vaiheessa muuten täsmentää, että vaikka tuon artikkelin kommenttikentässä kirjoitetaankin kaikenlaista paskaa niin en todellakaan yritä neuvoa ketään, kiillottaa omaa kilpeäni, promota Roope Salmista (en edes tunne koko miestä) tai muutoin saarnata raittiuden puolesta.
+
+Minun elämäni kaaoksen suurin perhosvaikutus lähti ystäväni muutosta ja päätyi raitistumiseeni. Tästä se jatkaa matkaansa johonkin muuhun elämääni muuttavaan asiaan. Se, että mitä se tulee olemaan en pysty ennustamaan. Pienilläkin asioilla on tapana kertautua elämässä. Toivon, että tämä kirjoitus toimii jollekulle pienenä asiana joka sysää liikenteeseen suurempia muutoksia.
+
+Jos sinulla on jotain kysyttävää niin minuun voi ottaa yhteyttä joko artikkelin alla olevan kommenttiosion kautta tai sivuston yläreunan ”yhteydenotto” valikon kautta.
+
+Kiitos, että luit. Ensi kerralla kirjoitan jostain muusta aiheesta.
+
+*6 kuukautta, 16 päivää, 2 tuntia, 8 minuuttia, 45 sekuntia takana. Elämän verran edessä.*

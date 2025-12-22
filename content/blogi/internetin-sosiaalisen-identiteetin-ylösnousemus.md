@@ -1,0 +1,25 @@
++++
+date = '2022-12-17T20:04:24+02:00'
+draft = false
+title = 'Internetin sosiaalisen identiteetin ylösnousemus'
++++
+
+![](/blogi/pexels-prateek-katyal-2694434.jpg)
+
+*Twitter tekee kuolemaa, kauan eläköön Mastodon!*
+
+Näillä sanoilla voisi kuvailla tilannetta, jossa sosiaalisen median metaforinen sodankäynti on tällä hetkellä. Elon Muskin ostaman Twitterin alasajo on kovastikin käynnissä ja etelä-afrikkalaisen miljardöörin äärioikeistolaisten kouriin valuva sosiaalisen median palvelu tuntuu vetävän kuolinkouristuksissaan viimeisiä riidan- ja vihankatkuisia henkäyksiään.
+
+Hyvä niin.
+
+Viimeisimpänä vinkeenään tämä satojen miljoonien ihmisten sosiaalista mediaa yksinvaltiaana hallitseva mulkku on bannannut palvelustaan kasan ansioituneita toimittajia, ihan vain koska nämä ovat raportoineet omissa medioissaan hänen tekemisistään. Sananvapauden itse itsensä nimeämä vaatteeton keisari on samalla vedolla estänyt kaikenlaisten kilpailevaan avoimeen ja federoituun sosiaalisen median palvelu Mastodoniin liittyvät linkit palvelussaan. Sana on vapaa ainoastaan niin kauan kuin Musk niin haluaa.
+
+Se mistä Muskia voi kuitenkin kiittää on, että käyttäjät — minä mukaanlukien — ovat vihdoinkin ymmärtäneet, että ei ole kovinkaan loogista tai millään muotoa turvallista tai järkevää antaa omaa sosiaalista identiteettiään ja sen muodostumiseen tarvittavia työkaluja kenenkään muun käsiin, vaan oma presenssi ja ns. ”kupla” kannattaa rakentaa ihan itse ja omilla ehdoillaan. Jos joku toinen työstää algoritmien ja mainonnan avulla sitä mitä sinä päivittäin näet, koet ja tunnet niin lopputulos on väistämättä jotain muuta kuin sinun persoonasi aidosti on. Totuushan on se, että meissä on kuitenkin kerroksia ja monimutkaisia kulmia, eikä kukaan muu lopulta tiedä — eikä kenenkään muun pitäisikään tietää — kuka sinä ihan oikeasti olet. Sosiaalinen media on niin iso osa meidän elämäämme ja olemusta, että kun sen avaimet ovat jonkun toisen käsissä niin sillä henkilöllä tai entiteetillä on samalla halutessaan valta muokata kaikkea kokemaamme ja näkemäämme. Välillisesti jopa meitä itseämme.
+
+Tämä on äärimmäisen vaarallista. Olemme viimeisten vuosikymmenten aikana tulleet internetin sosiaalisten persooniemme kanssa pisteeseen, jossa emme välttämättä enää itsekään tiedä, että mitä haluamme. Meille on niin pitkään valehdeltu, että meille kaikille on parempi jos annamme algoritmin hoitaa suosittelut ja aikajanojemme täytön, että olemme ehtineet unohtaa mitä me sosiaaliselta medialta haluamme. Meille on tässä perverssissä ja vääristyneessä suhteessa sosiaalisen median palveluiden kanssa kerrottu totuutena, ettei meidän edes tarvitse tietää mitä haluamme. Että ota tästä nyt vaan tämä pilleri täynnä adrenaliinia, dopamiinia ja tarkoin vain sinua varten valittuja aihealueita, kissakuvia ja vääristyneitä näkökantoja. Riitele, käy sotaa, huuda seinille ja anonyymeille internethahmoille. Tunne voittavasi. Mutta häviät kuitenkin.
+
+Nyt on kuitenkin tullut aika, kun ihmiset heräävät siitä tiukasti sanellun aikajanan doomscrollaamisesta johtuvasta aivosumusta ja tajuavat, että se virtuaalinen ja välillisesti todellinen maailma jossa olemme oppineet elämään ei ehkä olekaan meidän etuamme ajavan tahon työstämä ja maailmaa parantava instanssi. Se on mieltämme ja samalla meitä orjuuttava, rahaa omistajilleen takova kone, jossa kauppatavaraa olemme me. Se on valhetta ja kulissia joka on vihdoinkin romahtanut omaan absurdiuteensa ja paljastanut verhojen takaa pahuuden kiilto silmissä ja vaahto suupielissään raivoavan omistajansa rumat kasvot. Eikä tämä koske pelkästään Twitteriä ja Muskia, vaan myös Facebookia ja Zuckerbergiä sekä muita suuria, kaupallisia ja vaikutusvaltaisia teknologiapalveluita.
+
+[Mastodon](https://joinmastodon.org/) ja muut keskenään yhteydessä oleviin ja federoiviin servereihin ([Fediverseen](https://en.wikipedia.org/wiki/Fediverse)) liittyvät palvelut ovat vihdoinkin tulleet suuren yleisön tietoisuuteen ja ovat avoimuudessaan ja käyttäjälähtöisyydessään sitä mitä internetin pitäisikin olla. Meidän — ei yritysten ja hallitusten — omistamaa ja omien halujen ja mieltymysten mukaiseksi muokkaamaa ja turvallista tiedon valtakuntaa, jonne kuka tahansa voi perustaa oman linnansa — palvelimensa — ja kutsua sinne muita samanhenkisiä keskustelemaan ja toivottelemaan hyviä huomenia aamukahvin lomassa. Hitto vie, perustin itsekin oman palvelimen nimeltään [Mastodon Suomi](https://mastodonsuomi.fi) joka on nimensä mukaisesti aivan kaikille suomalaisille avoin palvelin.
+
+Tuntuu aidosti pitkästä aikaa siltä, että internetin ja sosiaalisen median avaimet ovat sen käyttäjien käsissä. Tunnen, että oma sosiaalisen median identiteettini on herännyt uudelleen henkiin. Tästä saadaan lopulta kiittää Muskia ja muita vallassa yhä olevia internetdiktaattoreita. Tästä eteenpäin on kuitenkin MEIDÄN päätettävissä, että mitä tällä yhtäkkiä realistoituneella vapaudella teemme. Vapautemme avaimia yritetään varmasti piankin jälleen varastaa tai lukkoja vaihtaa uusiin, mutta yhtenä rintamana pystymme varmasti estämään sen.
