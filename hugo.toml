@@ -1,4 +1,69 @@
 baseURL = 'https://henkkalaukka.fi/'
 languageCode = 'fi-FI'
 title = 'Henkka Laukka'
-theme = 'hello-friend'
+theme = 'nightfall'
+
+
+[params]
+  user = "henkka"
+  hostname = "henkkalaukka.fi"
+  footerHtml = ' '
+  # Global metadata display settings
+  showMetadata = true      # Master switch for all metadata display (default: true)
+  showPublishedDate = true # Show published date on post page (default: true)
+  showReadingTime = true   # Show reading time on post page (default: true)
+  showTags = true          # Show tags on post page (default: true)
+  showAuthors = true       # Show authors on post page (default: true)
+  showCategories = true    # Show categories on post page (default: true)
+
+  displayDateFormat = "02.01.2006"
+
+[params.author]
+  name = "Henkka Laukka"
+  #avatar = "/avatar.png"
+  #avatarSize = "size-xs"
+  email = "henkka@henkkalaukka.fi"
+  avatarFirst = false
+
+[[params.social]]
+  key = 0
+  name = "Github"
+  url = "https://github.com/macstache"
+  icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
+  target = "_blank" # Defines your target option in a-href. _blank for a new Tab for example.
+  aria = "GitHub Profile" # Define the aria label for accessibility like page reader - this is better for your SEO
+
+[[params.social]]
+  key = 1
+  name = "Mastodon"
+  url = "https://some.henkkalaukka.fi/@henkka"
+  icon = "fa-brands fa-mastodon" 
+  rel = "me"  # You can also add rel to social link
+
+[[params.social]]
+  key = 2
+  name = "Email"
+  url = "mailto:henkka@henkkalaukka.fi"
+  icon = "fa-solid fa-envelope" 
+
+[params.styles]
+  color = "blue"
+
+[menu]
+  [[menu.header]]
+    name = "Blogi"
+    weight = 0
+    url = "/blogi"
+  
+  [[menu.header]]
+    name = "Päiväkirja"
+    weight = 0
+    url = "/paivakirja"
+  
+  [[menu.header]]
+    name = "Runot"
+    weight = 0
+    url = "/runot"
+  
+[markup.goldmark.renderer]
+hardWraps = true

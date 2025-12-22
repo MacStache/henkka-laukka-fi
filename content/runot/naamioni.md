@@ -1,0 +1,29 @@
++++
+date = '2025-12-22T21:18:21+02:00'
+draft = true
+title = 'Naamioni'
++++
+
+Tänään yllätin itseni hymyilemästä
+Peitin nopeasti hairahdukseni
+tylyn naamioni alle
+sillä eihän se ole sopivaa
+että surun airueella 
+on kasvoillaan aitoa tunnetta
+
+Sovinnaisuuden vuoksiko salaan itseni
+Kohteliaisuudestako peitän toden
+vai kauhistuttaako minua se
+että vaikuttaisin muiden edessä heikolta
+inhimillisyydessäni alastomalta
+
+Totuus on kuitenkin se
+että tänäänkin jokainen värähdys
+tänäänkin jokainen äännähdys
+tänäänkin jokainen ele
+jonka hän osoittaa suuntaani
+armollisuudessaan
+saa minut tuntemaan itseni jälleen ihmiseksi
+
+Saa minut löytämään jotain
+jonka kadotin niin kovin kauan sitten

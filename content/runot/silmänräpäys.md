@@ -1,0 +1,41 @@
++++
+date = '2025-12-22T21:18:21+02:00'
+draft = true
+title = 'Silmänräpäys'
++++
+
+Tänään koin myrskyn keskellä tyvenen
+Harmauden lävisti säde
+joka tunkeutui sydämeeni
+saaden minut hymyilemään
+ensin sisältä
+sitten ulkoa
+lopulta ympärilleni
+
+Annoin lämmön tukea minua
+tuulen tuivertaessa leppymättä
+vavisuttaen, turmellen ja tuhoten
+kaluten vailla katumusta
+ensin tähdet
+sitten planeetan
+lopulta ruumiini
+
+Jäljelle jäänessä tyhjyydessä
+loisti ainokaisena säde
+joka valaisi pientä atomia
+jähmettäen ikuisuudeksi
+ensin ajatukseni
+sitten hymyni
+lopulta sieluni
+
+Katselin kuinka kaikkeus
+joka oli ollut niin karu
+versoi hauraasta säteestä
+joka palautti värit 
+ensin vihreän
+sitten punaisen
+lopulta muut
+
+Sen kaiken minä koin
+yhdessä pienessä silmänräpäyksessä
+ja se pelasti minut
