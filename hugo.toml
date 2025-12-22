@@ -1,0 +1,4 @@
+baseURL = 'https://henkkalaukka.fi/'
+languageCode = 'fi-FI'
+title = 'Henkka Laukka'
+theme = 'hello-friend'

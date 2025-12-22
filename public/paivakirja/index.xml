@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Henkka Laukka</title>
+    <link>http://localhost:1313/paivakirja/</link>
+    <description>Recent content on Henkka Laukka</description>
+    <generator>Hugo</generator>
+    <language>fi-FI</language>
+    <lastBuildDate>Mon, 22 Dec 2025 20:04:11 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/paivakirja/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ensimmainen Merkinta</title>
+      <link>http://localhost:1313/paivakirja/ensimmainen-merkinta/</link>
+      <pubDate>Mon, 22 Dec 2025 20:04:11 +0200</pubDate>
+      <guid>http://localhost:1313/paivakirja/ensimmainen-merkinta/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
