@@ -32,6 +32,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
           ARGS: "-rczv --delete"
           SOURCE: "public/"
-          REMOTE_HOST: www615.your-server.de
-          REMOTE_USER: pppogy
+          REMOTE_HOST: ${{ secrets.FTP_SERVER}}
+          REMOTE_USER: ${{ secrets.FTP_USERNAME}}
           TARGET: "/var/www/html"
