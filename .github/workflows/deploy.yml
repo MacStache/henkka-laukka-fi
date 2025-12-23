@@ -8,7 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
 
     steps:
       - name: Checkout code
@@ -27,12 +26,12 @@ jobs:
       - name: Build Hugo site
         run: hugo --gc --minify
 
-      - name: Deploy to Hetzner SFTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
+          server: ${{ secrets.FTP_SERVER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/
-          server-dir: ./
-          protocol: sftp
+          local_path: './public/*'
+          remote_path: '/public_html'
+          sftpArgs: '-o ConnectTimeout=5'
