@@ -20,6 +20,9 @@ jobs:
         with:
           hugo-version: 'latest'
 
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
       - name: Build Hugo site
         run: hugo --gc --minify
 
