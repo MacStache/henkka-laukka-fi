@@ -26,12 +26,12 @@ jobs:
       - name: Build Hugo site
         run: hugo --gc --minify
 
-      - name: SFTP Upload
-        uses: Dylan700/sftp-upload-action@latest
+      - name: Deploy via SFTP with Password
+        uses: BaseMax/GitHubAction-SFTP-Deploy-Password@main
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          host: ${{ secrets.FTP_SERVER }}
           port: 22
-          key: ${{ secrets.DEPLOY_KEY }}
-          uploads: |
-            public/: /
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./public/
+          remote-dir: /
