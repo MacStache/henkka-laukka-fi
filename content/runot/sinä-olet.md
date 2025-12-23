@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-09-22T12:00:00+02:00'
 draft = true
 title = 'Sinä Olet'
 +++
@@ -14,6 +14,8 @@ Sinä ojennat kätesi
 joka johdattaa sokeutunutta
 Sinä olet korva
 joka kuuntelee ja ymmärtää
+
+<!--more-->
 
 Kun soimaan itseäni
 olemattomista virheistä

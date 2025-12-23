@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-12-19T12:00:00+02:00'
 draft = true
 title = 'Parantaja'
 +++
@@ -8,6 +8,8 @@ Näen sinussa
 kaiken mikä parantaa
 maailman
 minutkin
+
+<!--more-->
 
 Paineen keskelle
 hellällä otteellasi annat

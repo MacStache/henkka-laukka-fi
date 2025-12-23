@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-07-31T12:00:00+02:00'
 draft = true
 title = 'Henki'
 +++
@@ -9,6 +9,8 @@ palkeeni ovat tyhjät
 henkeni paennut
 latistettu ja olematon
 jokin puristaa rintaani
+
+<!--more-->
 
 Se iski kuolleesta kulmasta
 heitti minut seinään ja 

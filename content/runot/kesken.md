@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-11-19T12:00:00+02:00'
 draft = true
 title = 'Kesken'
 +++
@@ -8,6 +8,8 @@ Kun heräsin sinä aamuna
 tunsin olevani väsynyt
 Kuin olisin vain maannut tajuttomana
 eikä levon voima koskettanut minua
+
+<!--more-->
 
 Nukuinko huonosti
 vai onko tämä jotain muuta?

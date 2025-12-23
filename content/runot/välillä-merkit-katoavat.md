@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-09-30T12:00:00+02:00'
 draft = true
 title = 'Välillä Merkit Katoavat'
 +++
@@ -8,6 +8,8 @@ Välillä mietin merkityksiä
 sitä, onko väliä, jos merkit katoavat
 Välittäisinkö, olisiko merkitystä
 jos välien sijaan välimerkit olisivat vallassa
+
+<!--more-->
 
 Olisiko välitöntä, vai täysin merkityksetöntä
 jos välittäisin ja merkitsisin kaiken

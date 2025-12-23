@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-08-14T12:00:00+02:00'
 draft = true
 title = 'Ikävä'
 +++
@@ -10,6 +10,8 @@ Voiko kaivata lämpöä
 jos ei ole sitä koskaan tuntenut?
 Voiko tuntea sormenpäät iholla
 vaikka ne ovat siinä vain haaveina?
+
+<!--more-->
 
 Voiko vuodattaa kyyneliä?
 Voiko vapautuneesti hymyillä?

@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-10-13T12:00:00+02:00'
 draft = true
 title = 'Valo'
 +++
@@ -8,6 +8,8 @@ Luonani vieraili tänään valo
 Valo oli tullut matkojen takaa
 Se istui viereeni ja otti minusta kiinni
 Pidellen minua kaaoksen keskellä
+
+<!--more-->
 
 Valo antoi myös minun pidellä itseään
 Se loitsi mieleeni kuvioita

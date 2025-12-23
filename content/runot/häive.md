@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-11-02T12:00:00+02:00'
 draft = true
 title = 'Häive'
 +++
@@ -8,6 +8,8 @@ Ennen kuin aamunkajo
 on ehtinyt luoda itsensä uudelleen idän kiirastulessa
 Nostan uneliaan käteni
 ja hamuan tyhjyyttä vierelläni
+
+<!--more-->
 
 Sinusta on jäljellä vain muiston häive
 tuoksusi lakanoihini palaneena 

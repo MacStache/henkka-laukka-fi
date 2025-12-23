@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-08-18T12:00:00+02:00'
 draft = true
 title = 'Elämä Joka Välkkyi Ohi'
 +++
@@ -7,6 +7,8 @@ title = 'Elämä Joka Välkkyi Ohi'
 Päivän kulku toistoa edellisestä
 kun rutiini maalaa eteesi
 harmaata tauluaan
+
+<!--more-->
 
 Heräät tuohon toisteeseen
 kaivat elämäsi taskusta

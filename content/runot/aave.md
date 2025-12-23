@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-11-24T12:00:00+02:00'
 draft = true
 title = 'Aave'
 +++
@@ -8,6 +8,8 @@ Tunnen
 kuin olisin leijunut
 päivieni lävitse
 tarkentumatta
+
+<!--more-->
 
 repaleisen harson läpi
 tuijottanut

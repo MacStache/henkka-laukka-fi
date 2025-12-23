@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-10-10T12:00:00+02:00'
 draft = true
 title = 'Keskellä'
 +++
@@ -9,6 +9,8 @@ matkojen takaa välittyy ääni
 kutsuvana se kantaa
 tuulten mukana korviini tuo
 sanat: "Tule luokseni"
+
+<!--more-->
 
 minä juoksen
 mittaamattomia matkoja

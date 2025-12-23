@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-09-25T12:00:00+02:00'
 draft = true
 title = 'Varma'
 +++
@@ -9,6 +9,8 @@ Tuntuu, että olen kaiken aikaa alasti
 Vaikka muureja tai esteitä
 joihin sinun katseesi hankaisi
 koska en voisi olla paljaasti minä
+
+<!--more-->
 
 En ole koskaan ollut näin tosi
 näin puhdas ja haavoittuva

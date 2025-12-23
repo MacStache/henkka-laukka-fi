@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-08-22T12:00:00+02:00'
 draft = true
 title = 'En Enää Kykene'
 +++
@@ -8,6 +8,8 @@ Päivittäin kipuilen
 sen ajatuksen kanssa, että valehtelen
 En sinulle, vaan itselleni
 Omille arvoilleni irvaillen
+
+<!--more-->
 
 Se iskee yleensä yllättäen
 vikaantumisen tunne

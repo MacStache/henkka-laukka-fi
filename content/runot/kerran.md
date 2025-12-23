@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-10-01T12:00:00+02:00'
 draft = true
 title = 'Kerran'
 +++
@@ -9,6 +9,8 @@ kun hyppäsin vauhdikkaasta keinusta
 ja villisti ilmassa kieppuen
 ja villisti riemusta huutaen
 se huuto muuttui alas tullessani itkuksi
+
+<!--more-->
 
 Kerran nuorena satutin itseni
 kun satuin puhumaan eri tavalla

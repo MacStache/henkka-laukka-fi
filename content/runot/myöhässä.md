@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-12-20T12:00:00+02:00'
 draft = true
 title = 'Myöhässä'
 +++
@@ -10,6 +10,8 @@ Onko joku jo edelläni
 Tämä pakotettu rytmi
 hakkaa rintani kipeäksi
 vaikka sen pitäisi elvyttää
+
+<!--more-->
 
 Olenko myöhässä
 vai onko vielä aikaa

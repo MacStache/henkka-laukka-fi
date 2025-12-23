@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-10-07T12:00:00+02:00'
 draft = true
 title = 'Vieras'
 +++
@@ -9,6 +9,8 @@ Esittäytyy ystäväksi
 Tulee kyselemättä sisään
 Kääntää elämän nurin
 Ei poistu vaan piiloutuu
+
+<!--more-->
 
 Kaksin huoneessa
 Mutta yksin

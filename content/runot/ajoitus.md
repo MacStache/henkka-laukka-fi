@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-10-27T12:00:00+02:00'
 draft = true
 title = 'Ajoitus'
 +++
@@ -8,6 +8,8 @@ Revin itseni irti vuosien taakasta
 menneisyyden painosta
 harteilleni oli kertynyt tuhkaa
 joka oli mustannut minut
+
+<!--more-->
 
 Vaelsin päämäärättömästi
 tuntematta itseäni

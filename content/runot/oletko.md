@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-10-05T12:00:00+02:00'
 draft = true
 title = 'Oletko?'
 +++
@@ -8,6 +8,8 @@ Oletko katsellut laillani taivaanrantaa ja kuvitellut
 miten sen takana odottaa muuttunut maa?
 Miten sen takana odottaa. 
 Yhä odottaa turhaan.
+
+<!--more-->
 
 Oletko uponnut laillani jaloissasi velloviin aaltoihin ja kuvitellut
 miten niiden mukana huuhtoutuu pois?

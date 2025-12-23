@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-09-17T12:00:00+02:00'
 draft = true
 title = 'Tämä Musta'
 +++
@@ -11,6 +11,8 @@ ulkona paukkuvalta pakkaselta piilossa
 ajatukseni silkkaa kultaa
 vailla pelkoa ja nykyistä 
 lannistunutta olemusta
+
+<!--more-->
 
 Siinä muistossa tunsin onnea
 ja turvallista lämpöä

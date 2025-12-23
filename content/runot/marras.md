@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-12-11T12:00:00+02:00'
 draft = true
 title = 'Marras'
 +++
@@ -10,6 +10,8 @@ En muistanut mennyttä
 tai keskittynyt nykyisyyteen
 Kaivoin, koska jotain jäi antamatta
 sille martaaksi muutetulle
+
+<!--more-->
 
 Kaivoin päivät, kaivoin kuukaudet
 en levännyt, tai halunnut levätä

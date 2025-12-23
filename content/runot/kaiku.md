@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-07-01T12:00:00+02:00'
 draft = true
 title = 'Kaiku'
 +++
@@ -9,6 +9,8 @@ minä kaipasin sinua
 puutteena vierelläni
 häivähdyksenä
 tarpeestani
+
+<!--more-->
 
 Kutsuin kaukaisuuteen
 ja sinä vastasit

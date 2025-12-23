@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-07-01T12:00:00+02:00'
 draft = true
 title = 'Kahleet'
 +++
@@ -9,6 +9,8 @@ ja kuvittelen itseni niiden joukkoon
 Vapaus, seikkailu, uskallus 
 kaikki nämä ovat pysytelleet saavuttamattomissani
 vain hieman kosketukseni ulottumattomissa
+
+<!--more-->
 
 Olen valmis levittämään siipeni
 ja liittymään muihin taivaan autuudessa

@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-10-31T12:00:00+02:00'
 draft = true
 title = 'Vankilani, Suojani'
 +++
@@ -9,6 +9,8 @@ sen kivillä vuoratun sellin sisällä
 jonka tyhjyydessä kumisivat
 loputtomat vaskikellot
 minua soimaten
+
+<!--more-->
 
 Vankina minä olin
 vaikka omasta tahdostani

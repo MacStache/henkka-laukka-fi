@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-11-26T12:00:00+02:00'
 draft = true
 title = 'Valmis'
 +++
@@ -9,6 +9,8 @@ joka suunnassa oli pelkkää mustaa
 en löytänyt tukea minkä päällä seistä,
 en ketään, joka minua kannattelisi
 en ketään, joka haluaisi tuntea minut
+
+<!--more-->
 
 Haparoiden etsin tietäni pimeässä aioneita
 toisinaan edessäni näkyi valon pilkahdus

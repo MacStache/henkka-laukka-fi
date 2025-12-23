@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-09-25T12:00:00+02:00'
 draft = true
 title = 'Hellästi'
 +++
@@ -7,6 +7,8 @@ title = 'Hellästi'
 Käteni ovat kuppina edessäni
 Päällekäin ja hievahtamatta
 kun pitelen sitä käsissäni
+
+<!--more-->
 
 Se hohkaa lämpöä ja kevyttä valoa
 joka kimpoilee iholtani avaruuteen

@@ -1,9 +1,8 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-10-29T12:00:00+02:00'
 draft = true
 title = 'Kanvaasi'
 +++
-
 
 Katselen edessäni olevaa tyhjää kanvaasia
 ja täytän sen mielelläni
@@ -11,6 +10,8 @@ Tyhjällä pensselillä maalaan siihen muistoni
 lapsuuteni kultaiset vehnäpellot
 nuoruuteni kipuilut
 aikuisuuteni masennuksen ja alkoholismin
+
+<!--more-->
 
 Siinä se on
 Kanvaasilla ja kehystettynä

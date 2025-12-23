@@ -1,55 +1,55 @@
-{{ define "title"}}
-{{ .Title }} | {{ .Site.Params.author.name }}
-{{ end }}
-
 {{ define "main" }}
+  <div class="content">
+    {{ .Content }}
+  </div>
 
-<div>
-  <div class="listHeader">
+  <div class="poems-header">
     <h1>{{ .Title }}</h1>
   </div>
 
-  {{ with .Content }}
-  <div class="listContent">
-    {{- . -}}
-  </div>
-  {{ end }}
+  {{ $poems := sort (where .Site.RegularPages "Section" "runot") "Date" "desc" }}
 
-  {{ $pages := .RegularPages }}
-  {{ $paginator := .Paginate $pages }}
 
-  <div role="list">
-    {{ range $paginator.Pages }}
-      <div class="postListItem" role="listitem">
-        <a class="postListLink" href="{{ .Permalink }}">
-          <div class="postHeader">
-            <span class="postTitle">{{ .Title }}</span>
-            {{ $layout := .Site.Params.displayDateFormat | default "2006-01-02" }}
-            {{ $iso := .Date | time.Format "2006-01-02" }}
-            <time class="postDate" datetime="{{ $iso }}">{{ .Date | time.Format $layout }}</time>
-          </div>
-          {{ $showReadingTime := true }}
-          {{ if eq .Site.Params.showReadingTime false }}{{ $showReadingTime = false }}{{ end }}
-          {{ if eq .Site.Params.readingTime false }}{{ $showReadingTime = false }}{{ end }}
-          {{ if eq .Params.showReadingTime false }}{{ $showReadingTime = false }}{{ end }}
-          {{ if $showReadingTime }}
-          <div class="readingTime">
-            {{ i18n "reading_time" }}: {{ i18n "reading_time_desc" .ReadingTime }}
-          </div>
-          {{ end }}
-        </a>
-        <div class="postExcerpt">
-          {{ .Summary }}
+  <div class="poems-gallery">
+    {{ range $poems }}
+      <div class="poem-card">
+        <div class="poem-header">
+          <h2>{{ .Title }}</h2>
         </div>
-          {{ if .Truncated }}
-            <a href="{{ .Permalink }}">Lue lisää →</a>
+
+        <div class="poem-excerpt">
+          {{ if in .RawContent "<!--more-->" }}
+            {{ $parts := split .RawContent "<!--more-->" }}
+            {{ index $parts 0 | safeHTML }}
+          {{ else }}
+            {{ .Summary | truncate 200 | safeHTML }}
           {{ end }}
+        </div>
+
+        <div class="poem-full-content hidden">
+          {{ .Content }}
+        </div>
+
+        <button class="expand-btn" onclick="expandPoem(this)">Lue kokonaan →</button>
       </div>
     {{ end }}
   </div>
 
-{{ partial "pagination.html" (dict "paginator" $paginator) }}
+  <script>
+    function expandPoem(button) {
+      const card = button.closest('.poem-card');
+      const excerpt = card.querySelector('.poem-excerpt');
+      const fullContent = card.querySelector('.poem-full-content');
 
-</div>
-
+      if (fullContent.classList.contains('hidden')) {
+        excerpt.classList.add('hidden');
+        fullContent.classList.remove('hidden');
+        button.textContent = '← Collapse';
+      } else {
+        fullContent.classList.add('hidden');
+        excerpt.classList.remove('hidden');
+        button.textContent = 'Lue kokonaan →';
+      }
+    }
+  </script>
 {{ end }}

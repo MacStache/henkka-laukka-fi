@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-06-05T12:00:00+02:00'
 draft = true
 title = 'Ylpeydestä'
 +++
@@ -10,6 +10,8 @@ raadat päivittäin
 tehdäksesi itsestäsi ehyemmän
 paremman
 voimakkaamman
+
+<!--more-->
 
 Ihmetykseni ei kumpua epäuskosta
 vaan puhtaasta ihailusta

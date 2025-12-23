@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-11-02T12:00:00+02:00'
 draft = true
 title = 'Sinua Varten'
 +++
@@ -8,6 +8,8 @@ Tänä yönä ehdotan
 ettet enää pelkää tulevaa
 vaan annat tuulen viedä
 minne tahansa se johdattaa
+
+<!--more-->
 
 Se kantaa kyllä,
 elämä

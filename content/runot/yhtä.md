@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-10-17T12:00:00+02:00'
 draft = true
 title = 'Yhtä'
 +++
@@ -8,6 +8,8 @@ Kun varkaat veivät arvokkaimpamme
 ja jättivät meidät vaille turvaa
 Me löysimme toisemme
 Lankavyyhtien keskeltä
+
+<!--more-->
 
 Kun tapasin sinut ensimmäistä kertaa
 ja suutelin sinua lumisateessa

@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-11-08T12:00:00+02:00'
 draft = true
 title = 'Sanovat'
 +++
@@ -9,6 +9,8 @@ Yksinäisyyteen
 Kaltoinkohteluun
 Siihen, että pettyy
 vannottujen valojen palaessa tuhkaksi
+
+<!--more-->
 
 Luunsiruun käsivarressa
 ilmaan, joka pakenee keuhkoista

@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-11-23T12:00:00+02:00'
 draft = true
 title = 'Palaudun'
 +++
@@ -9,6 +9,8 @@ on muuttunut
 Vai minäkö tässä olenkin
 jollain kummallisella tavalla
 vaihtanut palasia itsestäni?
+
+<!--more-->
 
 Varsinkin kanssasi huomaan, 
 että peilikuvani on päivittynyt

@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-12-14T12:00:00+02:00'
 draft = true
 title = 'Hereillä'
 +++
@@ -8,6 +8,8 @@ Makaan selälläni tyhjyydessä
 kehoni on väärässä
 En ole ollut minä
 unohdin kuinka olla olemassa
+
+<!--more-->
 
 Selkäni kaareutuu iskun tullessa
 Se palauttaa minut takaisin

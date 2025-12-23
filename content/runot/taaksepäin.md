@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-09-10T12:00:00+02:00'
 draft = true
 title = 'Taaksepäin'
 +++
@@ -9,6 +9,8 @@ näen edessäni pelkkää usvaa
 Sen sisältä pilkahtelevat hippuset
 jotka ovat väreiltään tummia
 punaisesta mustaan
+
+<!--more-->
 
 Tunnen jokaisen kohdalla piston
 kuin ne soimaisivat

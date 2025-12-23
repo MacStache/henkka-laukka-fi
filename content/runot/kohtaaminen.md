@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-06-16T12:00:00+02:00'
 draft = true
 title = 'Kohtaaminen'
 +++
@@ -10,6 +10,8 @@ menneisyytensä
 kaikki virheet
 jotka värittävät 
 historiansa mustaa tapettia
+
+<!--more-->
 
 Onko tasaväkisempää
 kuin se taistelu

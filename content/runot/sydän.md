@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-09-03T12:00:00+02:00'
 draft = true
 title = 'Sydän'
 +++
@@ -7,6 +7,8 @@ title = 'Sydän'
 Paljon vartijana on sydän
 joka on särjetty rikki
 ja eheytynyt arpeutuneeksi taideteokseksi
+
+<!--more-->
 
 Vuodattanut kaiken kanvaasille
 jonka pinnalta tarkastelijalle

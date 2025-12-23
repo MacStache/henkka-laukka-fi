@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-10-05T12:00:00+02:00'
 draft = true
 title = 'Tahdon'
 +++
@@ -8,6 +8,8 @@ Ethän luullut, että unohdin
 että unhoittaisin mielestäni
 nämä päivittäiset sanani
 sinulle sydämessäni
+
+<!--more-->
 
 Alituiseen olet ajatuksissani
 kaikkeutena aamusta

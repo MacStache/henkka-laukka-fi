@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-08-06T12:00:00+02:00'
 draft = true
 title = 'Kiire'
 +++
@@ -8,6 +8,8 @@ Uppouduin siihen kaikkeen
 Paneuduin mielelläni
 Tiivistin ajatukseni ja
 Hukkasin kaiken aikani
+
+<!--more-->
 
 Käytin siihen kaikkeni
 Annoin palasia itsestäni

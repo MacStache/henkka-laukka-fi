@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-07-21T12:00:00+02:00'
 draft = true
 title = 'Taakka'
 +++
@@ -10,6 +10,8 @@ jotka ovat näkyviä rooleissaan
 ja joilla on vahva side toiseen
 jotka tekevät muiden päivästä
 merkityksellisen
+
+<!--more-->
 
 Onko sellainen elämä 
 glooriaa ja tuuletusta

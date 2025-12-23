@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-06-01T12:00:00+02:00'
 draft = true
 title = 'Parvi'
 +++
@@ -9,6 +9,8 @@ Matkalla kotiin? Vai uusiin seikkailuihin?
 Muuttavatko ne jonnekin kenties ensimmäistä kertaa? 
 Minkälaista uskallusta se vaatiikaan
 Minkälaista kanttia mullistaa elämä
+
+<!--more-->
 
 Katoavat pian horisonttin taakse näkymättömiin
 Paikkaan jota en näe, jota en ole koskaan nähnyt

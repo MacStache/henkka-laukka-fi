@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-08-22T12:00:00+02:00'
 draft = true
 title = 'Tuntemattomien Teot'
 +++
@@ -9,6 +9,8 @@ on tuo ajatusten kruunu
 jonka raudasta valan ylleni
 Se köyristää niskani
 ja painaa minut suohon
+
+<!--more-->
 
 Jostain kaukaa
 saapuvat tuntemattomien kädet

@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-08-07T12:00:00+02:00'
 draft = true
 title = 'Muinainen'
 +++
@@ -9,6 +9,8 @@ ympärillään menneisyyden jäätyneet muistot
 seisoo yksinäinen patsas
 suolaa ja tippukiveä
 Ytimeni vangittuna
+
+<!--more-->
 
 Näin se on ollut, aikani alkuhetkestä lähtien
 vuosien kokemusten ja iskujen patinoimana

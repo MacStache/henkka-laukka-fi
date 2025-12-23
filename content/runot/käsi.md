@@ -1,5 +1,5 @@
 +++
-date = '2025-12-22T21:18:21+02:00'
+date = '2025-09-01T12:00:00+02:00'
 draft = true
 title = 'Käsi'
 +++
@@ -10,6 +10,8 @@ Joka painaa veteen
 ja pitää pinnan alla
 kunnes kaikki on ohi
 Kenen käsi se on?
+
+<!--more-->
 
 Muistan, kun kaikki oli pimeää
 ja etsin hapuillen valonlähdettä
