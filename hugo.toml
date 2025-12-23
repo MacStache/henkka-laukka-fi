@@ -61,14 +61,19 @@ theme = 'nightfall'
     url = "/blogi"
   
   [[menu.header]]
-    name = "Päiväkirja"
-    weight = 3
-    url = "/paivakirja"
-  
-  [[menu.header]]
     name = "Runot"
-    weight = 4
+    weight = 3
     url = "/runot"
+
+  [[menu.header]]
+    name = "Lyhkärit"
+    weight = 4
+    url = "/lyhkarit"  
+
+  [[menu.header]]
+    name = "Luetut"
+    weight = 5
+    url = "/luetut"  
   
 [markup.goldmark.renderer]
 hardWraps = true

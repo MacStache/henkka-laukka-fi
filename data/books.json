@@ -1,0 +1,172 @@
+[
+  {
+    "title": "Tiamat's Wrath",
+    "image": "/books/Corey_Tiamats_Wrath.jpg",
+    "firstName": "James S. A.",
+    "lastName": "Corey",
+    "status": "finished",
+    "startDate": "2024-12-15",
+    "finishDate": "2025-01-10",
+    "reviewUrl": null
+  },
+  {
+    "finishDate": "2025-02-20",
+    "firstName": "James S. A.",
+    "image": "/books/Corey_Nemesis_Games.jpg",
+    "lastName": "Corey",
+    "startDate": "2025-01-20",
+    "status": "finished",
+    "title": "Nemesis Games"
+  },
+  {
+    "finishDate": "2024-06-26",
+    "firstName": "Terry",
+    "image": "/books/Pratchett_Light_Fantastic.jpg",
+    "lastName": "Pratchett",
+    "reviewUrl": "/lyhkarit/terry-pratchett-the-light-fantastic/",
+    "startDate": "2024-06-19",
+    "status": "finished",
+    "title": "The Light Fantastic"
+  },
+  {
+    "finishDate": "2024-07-03",
+    "firstName": "Terry",
+    "image": "/books/Pratchett_Colour_of_Magic.jpg",
+    "lastName": "Pratchett",
+    "startDate": "2024-06-26",
+    "status": "finished",
+    "title": "The Colour of Magic"
+  },
+  {
+    "finishDate": "2024-07-11",
+    "firstName": "Terry",
+    "image": "/books/Pratchett_Equal_Rites.jpg",
+    "lastName": "Pratchett",
+    "startDate": "2024-07-04",
+    "status": "finished",
+    "title": "Equal Rites"
+  },
+  {
+    "finishDate": "2024-07-19",
+    "firstName": "Terry",
+    "image": "/books/Pratchett_Mort.jpg",
+    "lastName": "Pratchett",
+    "startDate": "2024-07-12",
+    "status": "finished",
+    "title": "Mort"
+  },
+  {
+    "finishDate": "2025-05-05",
+    "firstName": "Martha",
+    "image": "/books/Martha_Wells_Murderbot_Diaries_0_5.jpg",
+    "lastName": "Wells",
+    "startDate": "2025-05-05",
+    "status": "finished",
+    "title": "Compulsory"
+  },
+  {
+    "finishDate": "2025-05-12",
+    "firstName": "Martha",
+    "image": "/books/Martha_Wells_Murderbot_Diaries_1.jpg",
+    "lastName": "Wells",
+    "startDate": "2025-05-05",
+    "status": "finished",
+    "title": "All Systems Red"
+  },
+  {
+    "finishDate": "2025-07-12",
+    "firstName": "Martha",
+    "image": "/books/Martha_Wells_Murderbot_Diaries_2.jpg",
+    "lastName": "Wells",
+    "startDate": "2025-07-05",
+    "status": "finished",
+    "title": "Artificial Condition"
+  },
+  {
+    "finishDate": "2024-06-24",
+    "firstName": "Tad",
+    "image": "/books/Tad_Williams_Witchwood_Crown.jpg",
+    "lastName": "Williams",
+    "reviewUrl": "/lyhkarit/tad-williams-the-witchwood-crown/",
+    "startDate": "2024-05-15",
+    "status": "finished",
+    "title": "The Witchwood Crown"
+  },
+  {
+    "finishDate": "2024-12-16",
+    "firstName": "J. R. R.",
+    "image": "/books/Tolkien_Fellowship.jpg",
+    "lastName": "Tolkien",
+    "startDate": "2024-08-15",
+    "status": "finished",
+    "title": "The Fellowship of the Ring"
+  },
+  {
+    "finishDate": "2024-06-25",
+    "firstName": "Nefertiti",
+    "image": "/books/Malaty_Melankolian_Mestari.png",
+    "lastName": "Malaty",
+    "reviewUrl": "/lyhkarit/nefertiti-malaty-melankolian-mestari/",
+    "startDate": "2024-06-20",
+    "status": "finished",
+    "title": "Melankolian Mestari"
+  },
+  {
+    "finishDate": null,
+    "firstName": "Mark Z.",
+    "image": "/books/Danielewski_House_of_Leaves.jpg",
+    "lastName": "Danielewski",
+    "startDate": "2024-01-20",
+    "status": "reading",
+    "title": "House of Leaves"
+  },
+  {
+    "finishDate": "2025-11-15",
+    "firstName": "J. R. R.",
+    "image": "/books/Tolkien_Two_Towers.jpg",
+    "lastName": "Tolkien",
+    "startDate": "2024-12-17",
+    "status": "finished",
+    "title": "The Two Towers"
+  },
+  {
+    "finishDate": null,
+    "firstName": "Dan",
+    "image": "/books/Dan_Brown_Secret_of_Secrets.jpg",
+    "lastName": "Brown",
+    "reviewUrl": null,
+    "startDate": "2025-12-01",
+    "status": "reading",
+    "title": "The Secret of Secrets"
+  },
+  {
+    "title": "The Dragonbone Chair",
+    "image": "/books/Tad_Williams_Dragonbone_Chair.jpg",
+    "firstName": "Tad",
+    "lastName": "Williams",
+    "status": "finished",
+    "startDate": "2023-01-01",
+    "finishDate": "2023-01-31",
+    "reviewUrl": null
+  },
+  {
+    "title": "Stone of Farewell",
+    "image": "/books/Tad_Williams_Stone_of_Farewell.jpg",
+    "firstName": "Tad",
+    "lastName": "Williams",
+    "status": "finished",
+    "startDate": "2023-02-01",
+    "finishDate": "2023-02-28",
+    "reviewUrl": null
+  },
+  {
+    "title": "To Green Angel Tower",
+    "image": "/books/Tad_Williams_To_Green_Angel_Tower.jpg",
+    "firstName": "Tad",
+    "lastName": "Williams",
+    "status": "finished",
+    "startDate": "2023-03-01",
+    "finishDate": "2023-03-31",
+    "reviewUrl": null
+  }
+]

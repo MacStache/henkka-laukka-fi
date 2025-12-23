@@ -10,7 +10,7 @@ Vapaa-ajallani olen rikoksia vastaan taisteleva supersankari. Tai sitten videope
 
 Tältä sivustolta löydät [blogini](/blogi), johon kasaan kirjoituksiani ja ajatuksia elämästä. Blogia pääset lukemaan sivuston yläreunan valikon kautta.
 
-Lisäksi sivulta löytyy [lyhyempiä päiväkirjamaisia tekstejä sisältävä osio](/paivakirja), jonne kasaan rehellisiä kuulumisiani päivän touhuista. Päiväkirjaa päivitän mahdollisimman paljon ja se palvelee minua henkilökohtaisesti kirjoittamiseen kannustavana elementtinä.
+Lisäksi sivulta löytyy [lyhyempiä tekstejä sisältävä osio](/lyhkarit), jonne kasaan eräänlaisia arvosteluja tai tulkintoja lukemistani kirjoista. Lyhkäreitä päivitän mahdollisimman paljon ja se palvelee minua henkilökohtaisesti kirjoittamiseen kannustavana elementtinä.
 
 [Runot](/runot) osiosta löydät... runoja. Niitä on kertynyt viime aikoina kiitettävästi.
 
