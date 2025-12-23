@@ -35,5 +35,3 @@ jobs:
           local-dir: ./public/
           server-dir: ./
           protocol: ftps
-          skip-single-file: true
-          dangerous-delete-include: ""
