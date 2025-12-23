@@ -34,6 +34,6 @@ jobs:
       - name: Rsync to Hetzner
         run: |
           rsync -avz --delete \
-            -e "ssh -p 22 -o StrictHostKeyChecking=no" \
+            -e "ssh -p 222 -o StrictHostKeyChecking=no" \
             public/ \
             ${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}:/var/www/html/
