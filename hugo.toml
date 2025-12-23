@@ -66,14 +66,15 @@ theme = 'nightfall'
     url = "/runot"
 
   [[menu.header]]
-    name = "Lyhkärit"
+    name = "Luetut"
     weight = 4
-    url = "/lyhkarit"  
+    url = "/luetut"  
 
   [[menu.header]]
-    name = "Luetut"
+    name = "Lyhkärit"
     weight = 5
-    url = "/luetut"  
+    url = "/lyhkarit"  
+
   
 [markup.goldmark.renderer]
 hardWraps = true

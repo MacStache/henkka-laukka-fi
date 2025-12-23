@@ -26,7 +26,7 @@
     <h1>LUETUT</h1>
     <div class="sort-controls">
       <a href="#" class="sort-btn sort-date active" data-sort="date">Lajittele päivämäärän mukaan</a>
-      <a href="#" class="sort-btn sort-author" data-sort="author">Lajittele kirjoittajan mukaan</a>
+      <a href="#" class="sort-btn sort-author" data-sort="author">Lajittele kirjailijan mukaan</a>
     </div>
   </div>
 
@@ -34,21 +34,45 @@
   {{ if gt (len $finished) 0 }}
     <div class="gallery-section">
       <div class="gallery" id="finished-books">
+        {{ $currentYear := "" }}
         {{ range (sort $finished "finishDate" "desc") }}
-        <div class="book-item" data-last-name="{{ .lastName }}" data-first-name="{{ .firstName }}" data-finish-date="{{ .finishDate }}">
-          <p class="book-author">{{ .firstName }} {{ .lastName }}</p>
-          <div class="book-image-wrapper">
-            <img src="{{ .image }}" alt="{{ .title }}" />
-            {{ if .reviewUrl }}
-              <a href="{{ .reviewUrl }}" class="book-review-badge" title="Lyhkäri">✎</a>
+          {{ $finishParts := split .finishDate "-" }}
+          {{ $year := index $finishParts 0 }}
+
+          {{ if and .finishDate (ne $currentYear $year) }}
+            {{ if ne $currentYear "" }}
+              </div>
+            {{ end }}
+
+            <div class="year-separator">
+              <div class="year-line"></div>
+              <div class="year-label">{{ $year }}</div>
+              <div class="year-line"></div>
+            </div>
+
+            <div class="books-year-group">
+
+            {{ $currentYear = $year }}
+          {{ end }}
+
+          <div class="book-item" data-last-name="{{ .lastName }}" data-first-name="{{ .firstName }}" data-finish-date="{{ .finishDate }}">
+            <p class="book-author">{{ .firstName }} {{ .lastName }}</p>
+            <div class="book-image-wrapper">
+              <img src="{{ .image }}" alt="{{ .title }}" />
+              {{ if .reviewUrl }}
+                <a href="{{ .reviewUrl }}" class="book-review-badge" title="Lyhkäri">✎</a>
+              {{ end }}
+            </div>
+            <p class="book-title">{{ .title }}</p>
+            {{ if .finishDate }}
+              {{ $parts := split .finishDate "-" }}
+              <p class="book-date">Luettu: {{ index $parts 2 }}.{{ index $parts 1 }}.{{ index $parts 0 }}</p>
             {{ end }}
           </div>
-          <p class="book-title">{{ .title }}</p>
-          {{ if .finishDate }}
-            {{ $parts := split .finishDate "-" }}
-            <p class="book-date">Valmistunut: {{ index $parts 2 }}.{{ index $parts 1 }}.{{ index $parts 0 }}</p>
-          {{ end }}
-        </div>
+        {{ end }}
+
+        {{ if ne $currentYear "" }}
+          </div>
         {{ end }}
       </div>
     </div>
@@ -56,7 +80,7 @@
 
   <script>
     const sortBtns = document.querySelectorAll('.sort-btn');
-    const books = document.querySelectorAll('#finished-books .book-item');
+    const finishedBooksContainer = document.getElementById('finished-books');
 
     sortBtns.forEach(btn => {
       btn.addEventListener('click', (e) => {
@@ -66,33 +90,91 @@
         sortBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
 
-        const bookArray = Array.from(books);
+        const books = Array.from(finishedBooksContainer.querySelectorAll('.book-item'));
+        const separators = Array.from(finishedBooksContainer.querySelectorAll('.year-separator'));
+        const yearGroups = Array.from(finishedBooksContainer.querySelectorAll('.books-year-group'));
+
+        // Remove all separators and year groups
+        separators.forEach(sep => sep.remove());
+        yearGroups.forEach(group => group.remove());
 
         if (sortType === 'date') {
-          bookArray.sort((a, b) => {
+          // Sort by date and recreate year separators
+          books.sort((a, b) => {
             const dateA = new Date(b.dataset.finishDate);
             const dateB = new Date(a.dataset.finishDate);
             return dateA - dateB;
           });
+
+          let currentYear = '';
+          let yearGroup = null;
+
+          books.forEach(book => {
+            const bookYear = book.dataset.finishDate.substring(0, 4);
+
+            if (bookYear !== currentYear) {
+              // Create year separator
+              const separator = document.createElement('div');
+              separator.className = 'year-separator';
+              separator.innerHTML = `
+                <div class="year-line"></div>
+                <div class="year-label">${bookYear}</div>
+                <div class="year-line"></div>
+              `;
+              finishedBooksContainer.appendChild(separator);
+
+              // Create year group
+              yearGroup = document.createElement('div');
+              yearGroup.className = 'books-year-group';
+              finishedBooksContainer.appendChild(yearGroup);
+
+              currentYear = bookYear;
+            }
+
+            yearGroup.appendChild(book);
+          });
         } else if (sortType === 'author') {
-          bookArray.sort((a, b) => {
+          // Sort by author name and recreate letter separators
+          books.sort((a, b) => {
             const lastNameA = a.dataset.lastName.toLowerCase();
             const lastNameB = b.dataset.lastName.toLowerCase();
             const firstNameA = a.dataset.firstName.toLowerCase();
             const firstNameB = b.dataset.firstName.toLowerCase();
 
-            // Sort by last name first, then by first name
             if (lastNameA !== lastNameB) {
               return lastNameA.localeCompare(lastNameB);
             }
             return firstNameA.localeCompare(firstNameB);
           });
-        }
 
-        const container = document.getElementById('finished-books');
-        bookArray.forEach(book => {
-          container.appendChild(book);
-        });
+          let currentLetter = '';
+          let letterGroup = null;
+
+          books.forEach(book => {
+            const bookLetter = book.dataset.lastName.charAt(0).toUpperCase();
+
+            if (bookLetter !== currentLetter) {
+              // Create letter separator
+              const separator = document.createElement('div');
+              separator.className = 'author-separator';
+              separator.innerHTML = `
+                <div class="author-line"></div>
+                <div class="author-label">${bookLetter}</div>
+                <div class="author-line"></div>
+              `;
+              finishedBooksContainer.appendChild(separator);
+
+              // Create letter group
+              letterGroup = document.createElement('div');
+              letterGroup.className = 'books-author-group';
+              finishedBooksContainer.appendChild(letterGroup);
+
+              currentLetter = bookLetter;
+            }
+
+            letterGroup.appendChild(book);
+          });
+        }
       });
     });
   </script>
