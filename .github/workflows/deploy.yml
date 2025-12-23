@@ -27,7 +27,7 @@ jobs:
         run: hugo --gc --minify
 
       - name: Deploy via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.0
+        uses: wlixcc/SFTP-Deploy-Action@v1.2
         with:
           username: ${{ secrets.FTP_USERNAME }}
           server: ${{ secrets.FTP_SERVER }}
