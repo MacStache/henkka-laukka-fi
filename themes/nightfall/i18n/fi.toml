@@ -1,0 +1,6 @@
+[reading_time]
+    other = "lukuaika"
+
+[reading_time_desc]
+  one = "1 minuutti"
+  other = "{{ .Count }} minuuttia"

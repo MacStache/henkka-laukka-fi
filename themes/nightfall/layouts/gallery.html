@@ -1,0 +1,99 @@
+{{ define "main" }}
+  <div class="gallery-header">
+    <h1>NYT LUEN</h1>
+  </div>
+
+  {{ $reading := where .Site.Data.books "status" "reading" }}
+  {{ if gt (len $reading) 0 }}
+    <div class="gallery-section">
+      <div class="gallery">
+        {{ range $reading }}
+          <div class="book-item">
+            <p class="book-author">{{ .firstName }} {{ .lastName }}</p>
+            <img src="{{ .image }}" alt="{{ .title }}" />
+            <p class="book-title">{{ .title }}</p>
+            {{ if .startDate }}
+              {{ $parts := split .startDate "-" }}
+              <p class="book-date">Alkanut: {{ index $parts 2 }}.{{ index $parts 1 }}.{{ index $parts 0 }}</p>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  <div class="gallery-header">
+    <h1>LUETUT</h1>
+    <div class="sort-controls">
+      <a href="#" class="sort-btn sort-date active" data-sort="date">Lajittele päivämäärän mukaan</a>
+      <a href="#" class="sort-btn sort-author" data-sort="author">Lajittele kirjoittajan mukaan</a>
+    </div>
+  </div>
+
+  {{ $finished := where .Site.Data.books "status" "finished" }}
+  {{ if gt (len $finished) 0 }}
+    <div class="gallery-section">
+      <div class="gallery" id="finished-books">
+        {{ range (sort $finished "finishDate" "desc") }}
+        <div class="book-item" data-last-name="{{ .lastName }}" data-first-name="{{ .firstName }}" data-finish-date="{{ .finishDate }}">
+          <p class="book-author">{{ .firstName }} {{ .lastName }}</p>
+          <div class="book-image-wrapper">
+            <img src="{{ .image }}" alt="{{ .title }}" />
+            {{ if .reviewUrl }}
+              <a href="{{ .reviewUrl }}" class="book-review-badge" title="Lyhkäri">✎</a>
+            {{ end }}
+          </div>
+          <p class="book-title">{{ .title }}</p>
+          {{ if .finishDate }}
+            {{ $parts := split .finishDate "-" }}
+            <p class="book-date">Valmistunut: {{ index $parts 2 }}.{{ index $parts 1 }}.{{ index $parts 0 }}</p>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  <script>
+    const sortBtns = document.querySelectorAll('.sort-btn');
+    const books = document.querySelectorAll('#finished-books .book-item');
+
+    sortBtns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const sortType = btn.dataset.sort;
+
+        sortBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const bookArray = Array.from(books);
+
+        if (sortType === 'date') {
+          bookArray.sort((a, b) => {
+            const dateA = new Date(b.dataset.finishDate);
+            const dateB = new Date(a.dataset.finishDate);
+            return dateA - dateB;
+          });
+        } else if (sortType === 'author') {
+          bookArray.sort((a, b) => {
+            const lastNameA = a.dataset.lastName.toLowerCase();
+            const lastNameB = b.dataset.lastName.toLowerCase();
+            const firstNameA = a.dataset.firstName.toLowerCase();
+            const firstNameB = b.dataset.firstName.toLowerCase();
+
+            // Sort by last name first, then by first name
+            if (lastNameA !== lastNameB) {
+              return lastNameA.localeCompare(lastNameB);
+            }
+            return firstNameA.localeCompare(firstNameB);
+          });
+        }
+
+        const container = document.getElementById('finished-books');
+        bookArray.forEach(book => {
+          container.appendChild(book);
+        });
+      });
+    });
+  </script>
+{{ end }}
