@@ -26,12 +26,12 @@ jobs:
       - name: Build Hugo site
         run: hugo --gc --minify
 
-      - name: Deploy to Hetzner FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/
-          server-dir: ./
-          protocol: ftps
+      - name: Deploy via rsync
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
+          ARGS: "-rczv --delete"
+          SOURCE: "public/"
+          REMOTE_HOST: www615.your-server.de
+          REMOTE_USER: pppogy
+          TARGET: "/var/www/html"
