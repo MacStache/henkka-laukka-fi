@@ -26,12 +26,14 @@ jobs:
       - name: Build Hugo site
         run: hugo --gc --minify
 
-      - name: Deploy via SFTP with Password
-        uses: BaseMax/GitHubAction-SFTP-Deploy-Password@main
+      - name: Deploy to Hetzner
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          host: ${{ secrets.FTP_SERVER }}
-          port: 22
+          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./public/
-          remote-dir: /
+          server-dir: ./
+          protocol: ftps
+          skip-single-file: true
+          dangerous-delete-include: ""
