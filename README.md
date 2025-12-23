@@ -1,4 +1,4 @@
-This is a repository for my personal site [henkkalaukka.fi)(https://henkkalaukka.fi). 
+This is a repository for my personal site [henkkalaukka.fi](https://henkkalaukka.fi). 
 
 It is built on Hugo with some heavy modifications to add a book tracking feature as well as incorporate some poems that I've written.
 
