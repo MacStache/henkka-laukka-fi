@@ -252,10 +252,90 @@
   {
     "firstName": "David",
     "lastName": "Eddings",
+    "title": "The Shining Ones",
+    "image": "/books/Eddings_Shining_Ones.jpg",
+    "startDate": "2023-04-20",
+    "finishDate": "2023-05-08",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
+    "title": "Hidden City",
+    "image": "/books/Eddings_Hidden_City.jpg",
+    "startDate": "2023-04-06",
+    "finishDate": "2023-04-20",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
+    "title": "The Sapphire Rose",
+    "image": "/books/Eddings_Sapphire_Rose.jpg",
+    "startDate": "2023-03-28",
+    "finishDate": "2023-04-06",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
+    "title": "The ruby knight",
+    "image": "/books/Eddings_Ruby_Knight.jpg",
+    "startDate": "2023-03-19",
+    "finishDate": "2023-03-28",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
+    "title": "The diamond throne",
+    "image": "/books/Eddings_Diamond_Throne.jpg",
+    "startDate": "2023-03-12",
+    "finishDate": "2023-03-19",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
+    "title": "The seeress of Kell",
+    "image": "/books/Eddings_Seeress_of_Kell.jpg",
+    "startDate": "2023-03-05",
+    "finishDate": "2023-03-12",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
     "title": "Sorceress of Darshiva",
     "image": "/books/Eddings_Sorceress_of_Darshiva.jpg",
     "startDate": "2023-02-23",
     "finishDate": "2023-03-05",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
+    "title": "Demon Lord of Karanda",
+    "image": "/books/Eddings_Demon_Lord_of_Karanda.jpg",
+    "startDate": "2023-02-10",
+    "finishDate": "2023-02-23",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
+    "title": "King of the Murgos",
+    "image": "/books/Eddings_King_of_the_Murgos.jpg",
+    "startDate": "2023-01-22",
+    "finishDate": "2023-02-10",
     "status": "finished",
     "reviewUrl": null
   },
@@ -276,6 +356,46 @@
     "image": "/books/Eddings_Enchanters_End_Game.jpg",
     "startDate": "2022-12-28",
     "finishDate": "2023-01-07",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
+    "title": "Castle of Wizardry",
+    "image": "/books/Eddings_Castle_of_Wizardry.jpg",
+    "startDate": "2022-12-17",
+    "finishDate": "2022-12-28",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
+    "title": "Magician's Gambit",
+    "image": "/books/Eddings_Magigians_Gambit.jpg",
+    "startDate": "2022-12-10",
+    "finishDate": "2022-12-17",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
+    "title": "Queen of Sorcery",
+    "image": "/books/Eddings_Queen_of_Sorcery.jpg",
+    "startDate": "2022-12-10",
+    "finishDate": "2022-11-25",
+    "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "firstName": "David",
+    "lastName": "Eddings",
+    "title": "Pawn of Prophecy",
+    "image": "/books/Eddings_Pawn_of_Prophecy.jpg",
+    "startDate": "2022-11-10",
+    "finishDate": "2022-11-25",
     "status": "finished",
     "reviewUrl": null
   },
