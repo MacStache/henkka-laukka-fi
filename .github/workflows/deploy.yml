@@ -26,12 +26,12 @@ jobs:
       - name: Build Hugo site
         run: hugo --gc --minify
 
-      - name: Deploy via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2
+      - name: Deploy via SFTP with Password
+        uses: pressrelease/sftp-action@main
         with:
+          host: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
-          server: ${{ secrets.FTP_SERVER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local_path: './public/*'
-          remote_path: '/public_html'
-          sftpArgs: '-o ConnectTimeout=5'
+          port: 22
+          localDir: public
+          remoteDir: /
