@@ -91,8 +91,8 @@
         btn.classList.add('active');
 
         const books = Array.from(finishedBooksContainer.querySelectorAll('.book-item'));
-        const separators = Array.from(finishedBooksContainer.querySelectorAll('.year-separator'));
-        const yearGroups = Array.from(finishedBooksContainer.querySelectorAll('.books-year-group'));
+        const separators = Array.from(finishedBooksContainer.querySelectorAll('.year-separator, .author-separator'));
+        const yearGroups = Array.from(finishedBooksContainer.querySelectorAll('.books-year-group, .books-author-group'));
 
         // Remove all separators and year groups
         separators.forEach(sep => sep.remove());
