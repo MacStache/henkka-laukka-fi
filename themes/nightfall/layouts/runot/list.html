@@ -9,7 +9,6 @@
 
   {{ $poems := sort (where .Site.RegularPages "Section" "runot") "Date" "desc" }}
 
-
   <div class="poems-gallery">
     {{ range $poems }}
       <div class="poem-card">
