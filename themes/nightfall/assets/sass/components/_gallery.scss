@@ -233,19 +233,37 @@
     font-size: 0.8rem;
   }
 
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .gallery .book-image-wrapper {
+    height: 300px;
+  }
+
+  .gallery .book-item img {
+    height: 300px;
+  }
+
   #finished-books {
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
   }
 
   #finished-books .books-year-group {
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 
   #finished-books .books-author-group {
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 
   #finished-books .book-image-wrapper {
-    height: 350px;
+    height: 300px;
   }
 }
