@@ -1,6 +1,6 @@
 +++
 date = '2025-09-22T12:00:00+02:00'
-draft = true
+draft = false
 title = 'Sinä Olet'
 +++
 

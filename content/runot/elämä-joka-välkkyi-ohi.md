@@ -1,6 +1,6 @@
 +++
 date = '2025-08-18T12:00:00+02:00'
-draft = true
+draft = false
 title = 'Elämä Joka Välkkyi Ohi'
 +++
 
