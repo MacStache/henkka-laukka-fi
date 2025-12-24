@@ -222,3 +222,30 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
+@media (max-width: 768px) {
+  .gallery-header {
+    margin-left: 15px;
+  }
+
+  .sort-btn {
+    padding: 6px 8px;
+    font-size: 0.8rem;
+  }
+
+  #finished-books {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #finished-books .books-year-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #finished-books .books-author-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #finished-books .book-image-wrapper {
+    height: 350px;
+  }
+}
