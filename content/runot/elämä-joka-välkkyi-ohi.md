@@ -1,7 +1,7 @@
 +++
 date = '2025-08-18T12:00:00+02:00'
 draft = false
-title = 'Elämä Joka Välkkyi Ohi'
+title = 'Elämä joka välkkyi ohi'
 +++
 
 Päivän kulku toistoa edellisestä

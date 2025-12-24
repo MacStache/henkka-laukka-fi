@@ -1,7 +1,7 @@
 +++
 date = '2025-11-02T12:00:00+02:00'
 draft = false
-title = 'Sinua Varten'
+title = 'Sinua varten'
 +++
 
 Tänä yönä ehdotan
