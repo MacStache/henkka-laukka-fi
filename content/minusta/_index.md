@@ -2,6 +2,7 @@
 date = '2025-12-22T20:04:24+02:00'
 draft = false
 title = 'Minusta'
+layout = 'single'
 +++
 
 Olen Henkka Laukka, radioalan ammattilainen 15 vuoden työkokemuksella. Teen töitä Bauer Medialla Radio Megan aamujuontajana. Opiskelen myös töiden ohella monimuoto-opintoina Oulun Ammattikorkeakoulussa tieto- ja viestintätekniikan insinööriksi.
