@@ -75,6 +75,39 @@
   }
 }
 
+.instruction-with-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 20px;
+  grid-column: 1 / -1;
+  margin: 10px -15px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.0);
+  border-radius: 8px;
+  width: calc(90% + 40px);
+
+  p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #666;
+  }
+}
+
+.instruction-badge-demo {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+
+  .book-review-badge {
+    position: static;
+    top: auto;
+    right: auto;
+  }
+}
+
 .book-title {
   font-weight: bold;
   font-size: 0.95rem;
@@ -265,5 +298,27 @@
 
   #finished-books .book-image-wrapper {
     height: 300px;
+  }
+
+  .instruction-with-badge {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    margin-left: 12px;
+    max-width: 85%;
+    text-align: center;
+  }
+
+  .instruction-badge-demo {
+    order: -1;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  .book-review-badge {
+    position: static;
+    top: auto;
+    right: auto;
   }
 }

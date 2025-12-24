@@ -34,6 +34,14 @@
   {{ if gt (len $finished) 0 }}
     <div class="gallery-section">
       <div class="gallery" id="finished-books">
+
+        <div class="instruction-with-badge">
+          <div class="instruction-badge-demo">
+            <div class="book-review-badge">✎</div>
+          </div>
+          <p>Klikkaa kuvaketta nähdäksesi<br>
+          kirjasta kirjoitetun lyhkärin</p>
+        </div>
         {{ $currentYear := "" }}
         {{ range (sort $finished "finishDate" "desc") }}
           {{ $finishParts := split .finishDate "-" }}
