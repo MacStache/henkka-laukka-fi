@@ -110,23 +110,26 @@
     position: fixed;
     top: 60px;
     left: 0;
-    background-color: v.$backgroundDark;
+    background-color: #282828;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.5s ease-out;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1000;
 
     ul {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      z-index: 1001;
+      position: relative;
     }
 
     ul li {
-      font-size: 1.2rem;  // Increase from 0.85rem
+      font-size: 1.2rem; 
     }
   }
 
