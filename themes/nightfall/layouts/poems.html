@@ -1,54 +1,103 @@
 {{ define "main" }}
-  <div class="content">
-    {{ .Content }}
-  </div>
-
-  <div class="poems-header">
-    <h1>{{ .Title }}</h1>
-  </div>
-
-  {{ $poems := sort (where .Site.RegularPages "Section" "runot") "Date" "desc" }}
-
-  <div class="poems-gallery">
-    {{ range $poems }}
-      <div class="poem-card">
-        <div class="poem-header">
-          <h2>{{ .Title }}</h2>
-        </div>
-
-        <div class="poem-excerpt">
-          {{ if in .RawContent "<!--more-->" }}
-            {{ $parts := split .RawContent "<!--more-->" }}
-            {{ index $parts 0 | safeHTML }}
-          {{ else }}
-            {{ .Summary | truncate 200 | safeHTML }}
-          {{ end }}
-        </div>
-
-        <div class="poem-full-content hidden">
-          {{ .Content }}
-        </div>
-
-        <button class="expand-btn" onclick="expandPoem(this)">Lue kokonaan →</button>
+  <div class="poems-container">
+    <!-- Left Panel: Poem List -->
+    <div class="poems-left">
+      <div class="poems-header">
+        <h1>{{ .Title }}</h1>
       </div>
-    {{ end }}
+
+      <div class="poems-gallery">
+        {{ $poems := sort (where .Site.RegularPages "Section" "runot") "Date" "desc" }}
+        {{ range $index, $poem := $poems }}
+          <div class="poem-card" data-poem-id="poem-{{ $index }}">
+            <div class="poem-header">
+              <h2>{{ $poem.Title }}</h2>
+            </div>
+
+            <div class="poem-excerpt">
+              {{ if in $poem.RawContent "<!--more-->" }}
+                {{ $parts := split $poem.RawContent "<!--more-->" }}
+                {{ index $parts 0 | safeHTML }}
+              {{ else }}
+                {{ $poem.Summary | truncate 200 | safeHTML }}
+              {{ end }}
+            </div>
+
+            <button class="expand-btn" onclick="expandPoem(this, 'poem-{{ $index }}', '{{ $poem.Title }}')">Lue kokonaan →</button>
+
+            <div class="poem-full-content hidden">
+              {{ $poem.Content }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="poems-divider"></div>
+
+    <!-- Right Panel: Full Poem Content (Desktop) -->
+    <div class="poems-right">
+      <div class="poem-full-content-wrapper" id="fullContentWrapper">
+        <div class="empty-state">
+          <p>Valitse runo lukeaksesi sen kokonaan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Popup (Mobile) -->
+  <div class="poem-modal" id="poemModal">
+    <div class="poem-modal-content">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <div class="poem-modal-body" id="modalBody">
+        <div class="empty-state">
+          <p>Valitse runo lukeaksesi sen kokonaan</p>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script>
-    function expandPoem(button) {
+    function expandPoem(button, poemId, title) {
       const card = button.closest('.poem-card');
-      const excerpt = card.querySelector('.poem-excerpt');
       const fullContent = card.querySelector('.poem-full-content');
+      const wrapper = document.getElementById('fullContentWrapper');
+      const modalBody = document.getElementById('modalBody');
+      const modal = document.getElementById('poemModal');
 
-      if (fullContent.classList.contains('hidden')) {
-        excerpt.classList.add('hidden');
-        fullContent.classList.remove('hidden');
-        button.textContent = '← Palauta';
+      // Highlight active card
+      document.querySelectorAll('.poem-card').forEach(c => c.classList.remove('active'));
+      card.classList.add('active');
+
+      const contentHTML = `
+        <div class="poem-full-display">
+          <h2>${title}</h2>
+          <div class="poem-full-text">
+            ${fullContent.innerHTML}
+          </div>
+        </div>
+      `;
+
+      // Check if mobile
+      if (window.innerWidth <= 768) {
+        modalBody.innerHTML = contentHTML;
+        modal.classList.add('active');
       } else {
-        fullContent.classList.add('hidden');
-        excerpt.classList.remove('hidden');
-        button.textContent = 'Lue kokonaan →';
+        wrapper.innerHTML = contentHTML;
       }
     }
+
+    function closeModal() {
+      const modal = document.getElementById('poemModal');
+      modal.classList.remove('active');
+    }
+
+    // Close modal when clicking outside
+    document.getElementById('poemModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeModal();
+      }
+    });
   </script>
 {{ end }}

@@ -35,3 +35,4 @@ jobs:
           local-dir: ./public/
           server-dir: ./public_html/
           protocol: ftps
+    
