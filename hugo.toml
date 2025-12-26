@@ -46,7 +46,7 @@ theme = 'nightfall'
   icon = "fa-solid fa-envelope" 
 
 [params.styles]
-  color = "blue"
+  color = "#868686"
 
 [menu]
 

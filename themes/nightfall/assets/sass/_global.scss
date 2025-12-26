@@ -11,7 +11,18 @@ body {
 }
 
 a {
-  @include v.primary-color;
+  color: #868686;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: #686868;
+  }
 }
 
 pre code {
@@ -36,4 +47,29 @@ code {
 
 @-ms-viewport{
   width: device-width;
+}
+
+// Scrollbar Styling (Chrome, Safari, Edge)
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d2d2d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #868686, #555);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(to bottom, #9a9a9a, #686868);
+  }
+}
+
+// Firefox Scrollbar
+* {
+  scrollbar-color: #555 #2d2d2d;
 }
