@@ -18,10 +18,13 @@
   {{ $pages := .RegularPages }}
   {{ $paginator := .Paginate $pages }}
 
-  <div role="list">
+<div role="list" class="postsList">
     {{ range $paginator.Pages }}
       <div class="postListItem" role="listitem">
         <a class="postListLink" href="{{ .Permalink }}">
+          {{ if .Params.image }}
+          <img class="postImage" src="{{ .Params.image }}" alt="{{ .Title }}">
+          {{ end }}
           <div class="postHeader">
             <span class="postTitle">{{ .Title }}</span>
             {{ $layout := .Site.Params.displayDateFormat | default "2006-01-02" }}
@@ -42,7 +45,7 @@
           {{ .Summary }}
         </div>
           {{ if .Truncated }}
-            <a href="{{ .Permalink }}">Lue lisää →</a>
+            <a href="{{ .Permalink }}" class="postReadMore">Lue lisää →</a>
           {{ end }}
       </div>
     {{ end }}

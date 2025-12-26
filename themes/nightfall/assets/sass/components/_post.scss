@@ -1,61 +1,206 @@
 @use "../utils/variables" as v;
 
-.postDate {
-  float: right;
-  color: v.$white;
+.readingTime {
+  text-align: initial;
+  text-decoration: none;
+  color: #bbbbbb;
+  font-size: 0.9em;
+  padding-top: 0px;
+  padding-left: 10px;
+  margin: 0;
+  margin-top: -12px;
 }
 
 .postTitle {
-  
-  @include v.primary-color;
-
+  color: #fff;
+  text-align: left;
   text-decoration: none;
-  text-transform: capitalize;
   font-family: v.$fontHeader;
-  font-size: 1.2em;
-  float: left;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .postHeader {
-  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 12px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;
 }
 
 .postsList {
-  margin-top: 20px;
+  margin-top: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .postListItem {
-  padding: 20px;
-  background-color: v.$black;
-  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    border-color: #868686;
+    background: #333;
+  }
+
+  &.active {
+    border-color: #868686;
+    background: #464646;
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.3);
+  }
 }
 
-.postListLink:hover {
+.postListLink {
   text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+
+  &:hover {
+    text-decoration: none;
+
+    .postTitle {
+      color: #fff;
+    }
+  }
 }
 
 .postExcerpt {
   text-align: initial;
   text-decoration: none;
-  color: v.$white;
+  color: #bbb;
+  font-size: 1rem;
+  line-height: 1.8;
+
+  img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+  }
 }
+
+.postImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 0 12px 0;
+  object-fit: cover;
+  display: block;
+}
+
 
 .headerContainer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .noDecoration {
   text-decoration: none;
 }
 
+.postReadMore {
+  align-self: flex-start;
+  padding: 8px 14px;
+  background-color: transparent;
+  color: #868686;
+  border: 1px solid #444;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  display: inline-block;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #868686, #464646);
+    transition: width 0.3s ease;
+  }
+
+  &:hover {
+    border-color: #868686;
+    color: #fff;
+    background-color: rgba(155, 155, 155, 0.08);
+    box-shadow: 0 3px 8px rgba(59, 59, 59, 0.2);
+    transform: translateY(-1px);
+
+    &::after {
+      width: 100%;
+    }
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
 a,
 a:link,
 a:visited,
-a:active{
+a:active {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .postsList {
+    padding: 0 15px;
+  }
+
+  .postListItem {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .postTitle {
+    font-size: 1rem;
+  }
+
+  .postExcerpt {
+    font-size: 0.95rem;
+  }
+
+  .postImage {
+    margin: 0 -12px 10px -12px;
+    width: calc(100% + 24px);
+    border-radius: 6px;
+  }
+
+  .postReadMore {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
 }

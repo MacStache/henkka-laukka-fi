@@ -4,9 +4,17 @@
 
 {{ define "main" }}
 <div class="postWrapper">
-    <h1>{{ .Title }}</h1>
+    <div class="postHeader">
+        <h1 class="postTitle">{{ .Title }}</h1>
+        {{ $layout := .Site.Params.displayDateFormat | default "2006-01-02" }}
+        {{ $iso := .Date | time.Format "2006-01-02" }}
+        <time class="postDate" datetime="{{ $iso }}">{{ .Date | time.Format $layout }}</time>
+    </div>
+              <div class="readingTime">
+            {{ i18n "reading_time" }}: {{ i18n "reading_time_desc" .ReadingTime }}
+          </div>
     {{ if .Description}}
-    	<p>{{.Description}}</p>
+    	<p class="postDescription">{{.Description}}</p>
     {{ end }}
 
     {{/* Master switch */}}
@@ -66,7 +74,7 @@
         </dl>
     </section>
     {{ end }}
-    <div>
+    <div class="postContent">
         {{ .Content }}
     </div>
 </div>
