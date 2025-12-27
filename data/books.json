@@ -5,8 +5,8 @@
     "title": "The Secret of Secrets",
     "image": "/books/B/Brown_Secret_of_Secrets.jpg",
     "startDate": "2025-12-01",
-    "finishDate": null,
-    "status": "reading",
+    "finishDate": "2025-12-27",
+    "status": "finished",
     "reviewUrl": "/lyhkarit/dan-brown-ja-hittien-kaava/"
   },
   {
@@ -557,6 +557,16 @@
     "startDate": "2019-07-24",
     "finishDate": "2020-06-28",
     "status": "finished",
+    "reviewUrl": null
+  },
+  {
+    "title": "Rogue Protocol",
+    "image": "/books/W/Wells_Murderbot_Diaries_3.jpg",
+    "firstName": "Martha",
+    "lastName": "Wells",
+    "status": "reading",
+    "startDate": "2025-12-27",
+    "finishDate": null,
     "reviewUrl": null
   }
 ]
