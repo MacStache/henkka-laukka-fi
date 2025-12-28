@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <div class="page-shell">
+        <div class="gallery-header">
+            <h1>📚 Book Manager</h1>
+            <p>Quickly add, edit, and review your reading list.</p>
+        </div>
+
+        <div class="button-group">
+            <button class="add-book-btn" onclick="openAddModal()">+ Add New Book</button>
+        </div>
+
+        <ul class="books-grid" id="booksList"></ul>
+    </div>
+
+    <!-- Add Book Modal -->
+    <div class="modal" id="addModal">
+        <div class="modal-content">
+            <h2>Add New Book</h2>
+            <label>Title</label>
+            <input type="text" id="newTitle" placeholder="Book title">
+
+            <label>Image Folder</label>
+            <select id="newImageFolder">
+                <option value="">Select a folder</option>
+            </select>
+
+            <label>Image URL</label>
+            <select id="newImage">
+                <option value="">Select an image</option>
+            </select>
+
+            <label>First Name</label>
+            <input type="text" id="newFirstName" placeholder="John">
+
+            <label>Last Name</label>
+            <input type="text" id="newLastName" placeholder="Doe">
+
+            <label>Status</label>
+            <select id="newStatus">
+                <option value="reading">Reading</option>
+                <option value="finished">Finished</option>
+            </select>
+
+            <label>Start Date</label>
+            <input type="date" id="newStartDate">
+
+            <label>Finish Date</label>
+            <input type="date" id="newFinishDate">
+
+            <label>Review URL</label>
+            <select id="newReviewUrl">
+                <option value="">Select a review</option>
+            </select>
+
+            <div class="modal-buttons">
+                <button class="save-btn" onclick="addBook()">Save Book</button>
+                <button class="cancel-btn" onclick="closeAddModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Book Modal -->
+    <div class="modal" id="editModal">
+        <div class="modal-content">
+            <h2>Edit Book</h2>
+            <label>Title</label>
+            <input type="text" id="editTitle">
+
+            <label>Image Folder</label>
+            <select id="editImageFolder">
+                <option value="">Select a folder</option>
+            </select>
+
+            <label>Image URL</label>
+            <select id="editImage">
+                <option value="">Select an image</option>
+            </select>
+
+            <label>First Name</label>
+            <input type="text" id="editFirstName">
+
+            <label>Last Name</label>
+            <input type="text" id="editLastName">
+
+            <label>Status</label>
+            <select id="editStatus">
+                <option value="reading">Reading</option>
+                <option value="finished">Finished</option>
+            </select>
+
+            <label>Start Date</label>
+            <input type="date" id="editStartDate">
+
+            <label>Finish Date</label>
+            <input type="date" id="editFinishDate">
+
+            <label>Review URL</label>
+            <select id="editReviewUrl">
+                <option value="">Select a review</option>
+            </select>
+
+            <div class="modal-buttons">
+                <button class="save-btn" onclick="saveEditBook()">Save Changes</button>
+                <button class="cancel-btn" onclick="closeEditModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let books = [];
+        let editingIndex = null;
+        let imageFolders = [];
+        let reviewChoices = [];
+
+        async function loadBooks() {
+            const response = await fetch('/api/books');
+            books = await response.json();
+            renderBooks();
+        }
+
+        async function loadOptions() {
+            const [foldersRes, reviewsRes] = await Promise.all([
+                fetch('/api/image-folders'),
+                fetch('/api/reviews')
+            ]);
+
+            imageFolders = await foldersRes.json();
+            reviewChoices = await reviewsRes.json();
+
+            renderSelect('newImageFolder', imageFolders, 'Select a folder');
+            renderSelect('editImageFolder', imageFolders, 'Select a folder');
+            renderSelect('newReviewUrl', reviewChoices, 'Select a review');
+            renderSelect('editReviewUrl', reviewChoices, 'Select a review');
+        }
+
+        async function loadImagesForFolder(folder, targetSelectId, currentValue = '') {
+            if (!folder) {
+                renderSelect(targetSelectId, [], 'Select an image');
+                return;
+            }
+
+            const res = await fetch(`/api/images?folder=${encodeURIComponent(folder)}`);
+            const imgs = await res.json();
+            renderSelect(targetSelectId, imgs, 'Select an image');
+
+            if (currentValue && imgs.includes(currentValue)) {
+                const sel = document.getElementById(targetSelectId);
+                if (sel) sel.value = currentValue;
+            }
+        }
+
+        function renderSelect(id, values, placeholderText = 'Select...') {
+            const sel = document.getElementById(id);
+            if (!sel) return;
+            const current = sel.value;
+            const options = [`<option value="">${placeholderText}</option>`].concat(
+                values.map(v => `<option value="${v}">${v}</option>`) 
+            );
+            sel.innerHTML = options.join('');
+            if (current && values.includes(current)) {
+                sel.value = current;
+            }
+        }
+
+        function renderBooks() {
+            const container = document.getElementById('booksList');
+            container.innerHTML = books.map((book, index) => {
+                const safeImage = book.image || '';
+                const imgSrc = safeImage ? `http://localhost:1313${safeImage}` : '';
+                const start = formatDate(book.startDate);
+                const end = formatDate(book.finishDate);
+                const dateText = start ? (end ? `${start} → ${end}` : start) : (end || '');
+                const hasReview = Boolean(book.reviewUrl);
+                return `
+                <li class="book-card">
+                    <div class="book-image-wrapper">
+                        ${imgSrc ? `<img src="${imgSrc}" alt="${book.title || 'Book cover'}">` : ''}
+                        ${hasReview ? `<a class="book-review-badge" href="http://localhost:1313${book.reviewUrl}" target="_blank" rel="noopener" title="Open review">★</a>` : ''}
+                    </div>
+                    <div class="book-body">
+                        <div class="book-title">${book.title || 'Untitled'}</div>
+                        <div class="book-author">${[book.firstName, book.lastName].filter(Boolean).join(' ')}</div>
+                        <div class="book-meta">
+                            <span>${dateText}</span>
+                            <span class="status-badge status-${book.status}">${book.status === 'reading' ? 'Reading' : 'Finished'}</span>
+                        </div>
+                    </div>
+                    <div class="book-actions">
+                        <button class="edit-btn" onclick="openEditModal(${index})">Edit</button>
+                        <button class="delete-btn" onclick="deleteBook(${index})">Delete</button>
+                    </div>
+                </li>`;
+            }).join('');
+        }
+
+        function openAddModal() {
+            document.getElementById('addModal').classList.add('active');
+        }
+
+        function closeAddModal() {
+            document.getElementById('addModal').classList.remove('active');
+            document.getElementById('newTitle').value = '';
+            document.getElementById('newImageFolder').value = '';
+            renderSelect('newImage', [], 'Select an image');
+            document.getElementById('newFirstName').value = '';
+            document.getElementById('newLastName').value = '';
+            document.getElementById('newStartDate').value = '';
+            document.getElementById('newFinishDate').value = '';
+            document.getElementById('newReviewUrl').value = '';
+        }
+
+        async function openEditModal(index) {
+            editingIndex = index;
+            const book = books[index];
+
+            document.getElementById('editTitle').value = book.title;
+            const folder = extractImageFolder(book.image);
+            document.getElementById('editImageFolder').value = folder || '';
+            await loadImagesForFolder(folder, 'editImage', book.image);
+            document.getElementById('editFirstName').value = book.firstName;
+            document.getElementById('editLastName').value = book.lastName;
+            document.getElementById('editStatus').value = book.status;
+            document.getElementById('editStartDate').value = book.startDate;
+            document.getElementById('editFinishDate').value = book.finishDate || '';
+            document.getElementById('editReviewUrl').value = book.reviewUrl || '';
+
+            document.getElementById('editModal').classList.add('active');
+        }
+
+        function closeEditModal() {
+            document.getElementById('editModal').classList.remove('active');
+            editingIndex = null;
+        }
+
+        function extractImageFolder(imagePath) {
+            if (!imagePath) return '';
+            const parts = imagePath.split('/').filter(Boolean);
+            if (parts.length >= 2 && parts[0] === 'books') {
+                return parts[1];
+            }
+            return '';
+        }
+
+        async function saveEditBook() {
+            books[editingIndex] = {
+                title: document.getElementById('editTitle').value,
+                image: document.getElementById('editImage').value,
+                firstName: document.getElementById('editFirstName').value,
+                lastName: document.getElementById('editLastName').value,
+                status: document.getElementById('editStatus').value,
+                startDate: document.getElementById('editStartDate').value,
+                finishDate: document.getElementById('editFinishDate').value || null,
+                reviewUrl: document.getElementById('editReviewUrl').value || null
+            };
+
+            await saveBooks();
+            closeEditModal();
+            window.location.reload();
+        }
+
+        async function addBook() {
+            const newBook = {
+                title: document.getElementById('newTitle').value,
+                image: document.getElementById('newImage').value,
+                firstName: document.getElementById('newFirstName').value,
+                lastName: document.getElementById('newLastName').value,
+                status: document.getElementById('newStatus').value,
+                startDate: document.getElementById('newStartDate').value,
+                finishDate: document.getElementById('newFinishDate').value || null,
+                reviewUrl: document.getElementById('newReviewUrl').value || null
+            };
+
+            if (newBook.title && newBook.lastName) {
+                books.push(newBook);
+                await saveBooks();
+                closeAddModal();
+                window.location.reload();
+            } else {
+                alert('Please fill in Title and Last Name');
+            }
+        }
+
+        function deleteBook(index) {
+            if (confirm('Delete this book?')) {
+                books.splice(index, 1);
+                saveBooks();
+            }
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return '';
+            const parts = dateStr.split('-');
+            if (parts.length !== 3) return dateStr;
+            const [y, m, d] = parts;
+            if (!y || !m || !d) return dateStr;
+            return `${d}.${m}.${y}`;
+        }
+
+        async function saveBooks() {
+            await fetch('/api/books', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(books)
+            });
+            renderBooks();
+        }
+
+        document.getElementById('newImageFolder').addEventListener('change', (e) => {
+            loadImagesForFolder(e.target.value, 'newImage');
+        });
+
+        document.getElementById('editImageFolder').addEventListener('change', (e) => {
+            loadImagesForFolder(e.target.value, 'editImage');
+        });
+
+        Promise.all([loadOptions(), loadBooks()]);
+    </script>
+</body>
+</html>
