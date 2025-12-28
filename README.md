@@ -1,4 +1,4 @@
-# Henk Laukka Personal Website
+# Henkka Laukka Personal Website
 
 A personal portfolio website built with **Hugo** and hosted at [henkkalaukka.fi](http://henkkalaukka.fi).
 
