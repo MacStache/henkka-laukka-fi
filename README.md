@@ -35,6 +35,7 @@ A custom-built book tracking system displaying your reading history:
 The base Nightfall theme has been extensively modified with custom layouts, components, and styling to match the personal branding and feature requirements.
 
 ## Project Structure
+```
 ├── .github/workflows # github actions deployment
 ├── archetypes/ # Page archetypes for hugo
 ├── content/ # Markdown source files for all pages
@@ -47,6 +48,7 @@ The base Nightfall theme has been extensively modified with custom layouts, comp
 │ └── screenshots/ # Blog screenshot images
 ├── themes/ # Hugo themes (Nightfall base)
 └── book-manager/ # Python book management application
+```
 
 ## Book Manager
 
