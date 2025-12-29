@@ -10,6 +10,8 @@ Kohoaa kaksi toisilleen turvallista
 Versoaa kaksi
 jotka hakevat toisiaan
 
+<!--more-->
+
 Välillään on tilaa
 Yllään suojaton taivas
 Nojaavat toisiaan kohti hiljaisuudessa
