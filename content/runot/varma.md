@@ -6,7 +6,7 @@ title = 'Varma'
 
 Tunnen suurta varmuutta sinun kanssasi
 Tuntuu, että olen kaiken aikaa alasti
-Vaikka muureja tai esteitä
+Vailla muureja tai esteitä
 joihin sinun katseesi hankaisi
 koska en voisi olla paljaasti minä
 
