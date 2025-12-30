@@ -78,3 +78,7 @@ theme = 'nightfall'
   
 [markup.goldmark.renderer]
 hardWraps = true
+
+[security]
+  [security.funcs]
+    getenv = ["HUGO_STEAM_API", "HUGO_STEAM_ID"]
