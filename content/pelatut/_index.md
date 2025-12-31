@@ -1,4 +1,4 @@
 +++
 title = "PELATUT"
-layout = "gallery2"
+layout = "games-gallery"
 +++

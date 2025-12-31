@@ -24,11 +24,11 @@
 
         <!-- Currently Playing Section -->
         {{ if gt (len $currentlyPlaying) 0 }}
-          <div class="gallery-header">
+          <div class="games-gallery-header">
             <h1>NYT PELAAN</h1>
           </div>
-          <div class="gallery-section">
-            <div class="gallery">
+          <div class="games-gallery-section">
+            <div class="games-gallery">
               {{ range $currentlyPlaying }}
                 <div class="game-item" data-appid="{{ int .appid }}" data-game-name="{{ .name }}" data-playtime="{{ .playtime_forever }}">
                   <p class="game-name">{{ .name }}</p>
@@ -62,11 +62,11 @@
         <!-- All Games from Last Year (excluding top 2) -->
         {{ $remainingGames := after 2 $sortedGames }}
         {{ if gt (len $remainingGames) 0 }}
-          <div class="gallery-header">
+          <div class="games-gallery-header">
             <h1>PELATUT</h1>
           </div>
-          <div class="gallery-section">
-            <div class="gallery" id="steam-games">
+          <div class="games-gallery-section">
+            <div class="games-gallery" id="steam-games">
               {{ range $remainingGames }}
                 <div class="game-item" data-appid="{{ int .appid }}" data-game-name="{{ .name }}" data-playtime="{{ .playtime_forever }}" data-last-played="{{ .rtime_last_played }}">
                   <p class="game-name">{{ .name }}</p>

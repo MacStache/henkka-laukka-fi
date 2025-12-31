@@ -1,4 +1,4 @@
-.gallery-header {
+.games-gallery-header {
   margin-top: 20px;
   margin-bottom: 0px;
   padding-bottom: 20px;
@@ -7,18 +7,18 @@
   text-align: left;
 }
 
-.gallery-header h1 {
+.games-gallery-header h1 {
   margin: 0 0 0px 0;
   font-size: 1.5rem;
   font-weight: bold;
   color: #fff;
 }
 
-.gallery-section {
+.games-gallery-section {
   margin-bottom: 40px;
 }
 
-.gallery {
+.games-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -85,7 +85,7 @@
 }
 
 @media (max-width: 1024px) {
-  .gallery {
+  .games-gallery {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     padding: 15px;
@@ -93,11 +93,11 @@
 }
 
 @media (max-width: 768px) {
-  .gallery-header {
+  .games-gallery-header {
     margin-left: 15px;
   }
 
-  .gallery {
+  .games-gallery {
     grid-template-columns: 1fr;
     gap: 12px;
     padding: 12px;
