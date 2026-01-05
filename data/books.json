@@ -14,9 +14,9 @@
     "firstName": "Terry",
     "lastName": "Pratchett",
     "image": "/books/P/Pratchett_Sourcery.jpg",
-    "status": "reading",
+    "status": "finished",
     "startDate": "2025-12-28",
-    "finishDate": null,
+    "finishDate": "2026-01-05",
     "reviewUrl": null
   },
   {
