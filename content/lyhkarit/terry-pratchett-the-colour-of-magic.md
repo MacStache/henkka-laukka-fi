@@ -4,7 +4,7 @@ draft = false
 title = 'Terry Pratchett - The Colour of Magic'
 +++
 
-![](/lyhkarit/lightFantastic.jpg)
+![](/lyhkarit/ColourOfMagic.jpg)
 
 _(**LYHKÄRIT** ovat **SPOILERIVAPAITA** ja **LYHYITÄ** kirjoituksia lukemistani kirjoista.)_
 
