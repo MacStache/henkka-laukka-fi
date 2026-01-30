@@ -1,5 +1,15 @@
 [
   {
+    "title": "Hyvät Hakkerit",
+    "firstName": "Linus",
+    "lastName": "Nyman",
+    "image": "/books/N/Nyman_Hyvat_Hakkerit.jpg",
+    "status": "reading",
+    "startDate": "2026-01-29",
+    "finishDate": null,
+    "reviewUrl": null
+  },
+  {
     "title": "Exit Strategy",
     "firstName": "Martha",
     "lastName": "Wells",
