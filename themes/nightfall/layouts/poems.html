@@ -7,7 +7,7 @@
       </div>
 
       <div class="poems-gallery">
-        {{ $poems := sort (where .Site.RegularPages "Section" "runot") "Date" "asc" }}
+        {{ $poems := sort (where .Site.RegularPages "Section" "runot") "Date" "desc" }}
         {{ range $index, $poem := $poems }}
           <div class="poem-card" data-poem-id="poem-{{ $index }}">
             <div class="poem-header">
