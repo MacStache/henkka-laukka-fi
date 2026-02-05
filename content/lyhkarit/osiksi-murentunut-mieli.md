@@ -18,7 +18,7 @@ Ihan kateeksi käy Brandyn (näin kavereiden kesken) kynän ja mielen pyhää li
 Novels aren’t just happy escapes; they are slivers of people’s souls, nailed to the pages, dripping ink from veins of wood pulp. Reading the right one at the right time can make all the difference.
 {{< /quote >}}
 
-*Legion* ja Stephen Leeds ovatkin sitten osa jotain aivan muuta. Lukemani kokonaisuus kantaa kokonaisuudessaan nimeä "Legion: The Many Lives of Stephen Leeds" ja se kattaa kolme itsenäistä novellia, joiden pääosaa esittää viitisenkymmentä eri hahmoa. Kaikkien elämään ja olemukseen ei toki mennä kovinkaan syvällisesti, vaan he ovat kaikki osa Stephen Leedsin persoonaa. 
+*Legion* ja Stephen Leeds ovatkin sitten osa jotain aivan muuta. Lukemani kokonaisuus kantaa kokonaisuudessaan nimeä *Legion: The Many Lives of Stephen Leeds* ja se kattaa kolme itsenäistä novellia, joiden pääosaa esittää viitisenkymmentä eri hahmoa. Kaikkien elämään ja olemukseen ei toki mennä kovinkaan syvällisesti, vaan he ovat kaikki osa Stephen Leedsin persoonaa. 
 
 Katsos, Leeds on skitsofreenikko. Mutta ei mikään aivan tavallinen skitsofreenikko vaan hän on valjastanut hallusinoimansa persoonat erilaisiksi osaamisensa jatkeiksi. Leeds pystyy muun muassa kuuntelemaan äänikirjan läpi nopeutettuna ja seuraavana aamuna hänen seuraansa lyöttäytyy uusi persoona, joka osaa käyttää äänikirjan sisältämää tietoa hyödykseen. Esimerkiksi kryptografiasta tai vaikkapa hörylaivojen historiasta voi näin olla Leedsille suurtakin hyötyä. Ja näin tämä varakas yksityisetsivä ratkoo erikoisia rikoksia koko kirjan täydeltä.
 
